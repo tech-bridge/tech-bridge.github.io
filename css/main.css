@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body {
+    background: #F19B33; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F59B20, #FDC70F); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F59B20, #FDC70F); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F59B20, #FDC70F); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F59B20, #FDC70F); /* Standard syntax */
+}
+
+body, input, select, textarea {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 17pt;
+  font-weight: 300;
+  line-height: 1.65;
+}
+
+footer {
+  font-size: 14pt;
+}
+
+  @media screen and (max-width: 1680px) {
+
+    body, input, select, textarea, footer {
+      font-size: 14pt;
+    }
+
+  }
+
+  @media screen and (max-width: 1280px) {
+
+    body, input, select, textarea, footer {
+      font-size: 12pt;
+    }
+
+  }
+
+  @media screen and (max-width: 360px) {
+
+    body, input, select, textarea, footer {
+      font-size: 11pt;
+    }
+
+  }
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  margin-top: 120px;
+  color: #FFFFFF;
+}
+
+header small {
+  color: #FFFFFF;
+  font-weight: 100;
+}
+
+header p {
+  font-weight: 100;
+}
+
+header .header-content {
+  margin-top: 105px;
+  margin-bottom: 50px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+#nav {
+		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		background-color: #F2F2F0;
+		color: #636363;
+		padding: 1em;
+		background-color: #F2F2F0;
+		border-top-left-radius: 1em;
+		border-top-right-radius: 1em;
+		cursor: default;
+		text-align: center;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #fff;
+  background-color: #F19B33;
+}
+.nav>li>a {
+  font-size: 20px;
+  font-weight: 100;
+}
+.nav>li>a:hover {
+  background-color: #ddd;
+}
+
+footer {
+  margin: 78px 0px;
+  font-weight: 400;
+}
+
+footer img.footer-logo {
+  margin-bottom: 30px;
+}
+
+footer .company-info {
+  margin-top: 50px;
+}
+
+footer .company-info span {
+  display: block;
+  height: 60px;
+  line-height: 60px;
+}
+
+footer .company-info .icon {
+  display: inline;
+  width: 2em;
+  margin-right: 1em;
+}

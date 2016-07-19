@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d18825034876a9953f50"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "75171568102afcbb14b5"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -38362,7 +38362,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'row' },
+	          { className: 'row discount' },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'col-xs-12 highlight text-center discount' },
@@ -38488,7 +38488,7 @@
 
 
 	// module
-	exports.push([module.id, "#camp-info .info-left {\n  padding-right: 3em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .info-left {\n    padding-right: 15px;\n  }\n}\n\n#camp-info .camp-title {\n  font-size: 3em;\n  font-weight: 700;\n}\n#camp-info .camp-subtitle {\n  font-size: 2em;\n  margin-bottom: 2em;\n}\n#camp-info .camp-info {\n}\n#camp-info .camp-info span {\n  display: inline-block;\n}\n#camp-info .camp-info dt {\n  font-weight: 400;\n  margin-top: 1em;\n}\n#camp-info .camp-info dd {\n  margin-top: 1em;\n}\n#camp-info .camp-info li {\n  margin-bottom: 1em;\n}\n@media screen and (max-width: 767px) {\n  #camp-info .camp-info dt {\n    font-size: 1.2em;\n  }\n  #camp-info .camp-info dd {\n    margin-top: 0.3em;\n  }\n}\n\n#camp-info .camp-info .camp-no {\n  width: 3em;\n  font-weight: 700;\n}\n@media screen and (max-width: 375px) {\n  #camp-info .camp-info .camp-no {\n    display: block;\n  }\n}\n\n#camp-info .camp-info .camp-date {\n  width: 4em;\n}\n#camp-info .camp-info .camp-day {\n  font-weight: 700;\n  width: 2em;\n}\n#camp-info .camp-info .camp-wave {\n  width: 1em;\n}\n#camp-info .camp-info .camp-loc {\n  position: relative;\n}\n#camp-info .camp-info .camp-loc::before {\n  content: '';\n  position: absolute;\n  top: 90%;\n  width: 100%;\n  height: 0.25em;\n  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background-size: 0.5em 0.5em;\n  background-repeat: repeat-x, repeat-x;\n}\n#camp-info .camp-info .loc-name {\n  width: 230px;\n}\n#camp-info .camp-info .loc-addr {\n  width: 250px;\n  font-size: 11pt;\n}\n\n#camp-info .discount {\n  padding: 1em 0;\n  margin: 4em 0;\n}\n#camp-info .discount .title {\n  font-weight: 700;\n  font-size: 1.2em;\n  text-align: left;\n}\n#camp-info .discount img {\n  height: 6em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .discount img {\n    margin-top: 2em;\n  }\n}\n", ""]);
+	exports.push([module.id, "#camp-info .info-left {\n  padding-right: 3em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .info-left {\n    padding-right: 15px;\n  }\n}\n\n#camp-info .camp-title {\n  font-size: 3em;\n  font-weight: 700;\n}\n#camp-info .camp-subtitle {\n  font-size: 2em;\n  margin-bottom: 2em;\n}\n#camp-info .camp-info {\n}\n#camp-info .camp-info span {\n  display: inline-block;\n}\n#camp-info .camp-info dt {\n  font-weight: 400;\n  margin-top: 1em;\n}\n#camp-info .camp-info dd {\n  margin-top: 1em;\n}\n#camp-info .camp-info li {\n  margin-bottom: 1em;\n}\n@media screen and (max-width: 767px) {\n  #camp-info .camp-info dt {\n    font-size: 1.2em;\n  }\n  #camp-info .camp-info dd {\n    margin-top: 0.3em;\n  }\n}\n\n#camp-info .camp-info .camp-no {\n  width: 3em;\n  font-weight: 700;\n}\n@media screen and (max-width: 375px) {\n  #camp-info .camp-info .camp-no {\n    display: block;\n  }\n}\n\n#camp-info .camp-info .camp-date {\n  width: 4em;\n}\n#camp-info .camp-info .camp-day {\n  font-weight: 700;\n  width: 2em;\n}\n#camp-info .camp-info .camp-wave {\n  width: 1em;\n}\n#camp-info .camp-info .camp-loc {\n  position: relative;\n}\n#camp-info .camp-info .camp-loc::before {\n  content: '';\n  position: absolute;\n  top: 90%;\n  width: 100%;\n  height: 0.25em;\n  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background-size: 0.5em 0.5em;\n  background-repeat: repeat-x, repeat-x;\n}\n#camp-info .camp-info .loc-name {\n  width: 230px;\n}\n#camp-info .camp-info .loc-addr {\n  width: 250px;\n  font-size: 11pt;\n}\n\n#camp-info .discount {\n  padding: 1em 0;\n  margin: 4em 0;\n}\n#camp-info .discount .title {\n  float: left;\n  font-weight: 700;\n  font-size: 1.2em;\n  text-align: left;\n}\n#camp-info .discount img {\n  height: 6em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .discount img {\n    margin-top: 2em;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -39411,14 +39411,16 @@
 	  targetBold: "중1 이상 학생들",
 	  time: "오전 10:00 ~ 오후 1:00(3시간)",
 	  number: 8,
-	  needed: "노트북"
+	  needed: "노트북",
+	  image: "img/web_short.png"
 	}, {
 	  title: "파이썬",
 	  subtitle: "단기과정 2",
 	  target: "파이썬을 마스터하고 싶은 초6 ~ 중2",
 	  time: "오전 10:00 ~ 오후 1:00(3시간)",
 	  number: 8,
-	  needed: "노트북"
+	  needed: "노트북",
+	  image: "img/python_short.png"
 	}];
 
 	var Shorttime = function (_React$Component) {
@@ -39485,7 +39487,7 @@
 	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(PosterShort).call(this, props));
 
 	    _this.posters = _this.props.posterData.map(function (poster) {
-	      _react2.default.createElement(
+	      return _react2.default.createElement(
 	        'div',
 	        null,
 	        _react2.default.createElement(_CampInfoShort2.default, { info: poster }),
@@ -39671,14 +39673,18 @@
 	                'dd',
 	                { className: 'col-sm-10' },
 	                this.props.info.needed
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'text-right' },
-	                '"비용은 별도 문의해주시기 바랍니다."'
-	              ),
-	              _react2.default.createElement('img', { src: this.props.info.image, className: 'img-responsive' })
+	              )
 	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'col-xs-12' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'text-right q' },
+	              '"비용은 별도 문의해주시기 바랍니다."'
+	            ),
+	            _react2.default.createElement('img', { src: this.props.info.image, className: 'img-responsive center-block i' })
 	          )
 	        )
 	      );
@@ -39725,7 +39731,7 @@
 
 
 	// module
-	exports.push([module.id, "#camp-info .info-left {\n  padding-right: 3em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .info-left {\n    padding-right: 15px;\n  }\n}\n\n#camp-info .camp-title {\n  font-size: 3em;\n  font-weight: 700;\n}\n#camp-info .camp-subtitle {\n  font-size: 2em;\n  margin-bottom: 2em;\n}\n#camp-info .camp-info {\n}\n#camp-info .camp-info span {\n  display: inline-block;\n}\n#camp-info .camp-info dt {\n  font-weight: 400;\n  margin-top: 1em;\n}\n#camp-info .camp-info dd {\n  margin-top: 1em;\n}\n#camp-info .camp-info li {\n  margin-bottom: 1em;\n}\n@media screen and (max-width: 767px) {\n  #camp-info .camp-info dt {\n    font-size: 1.2em;\n  }\n  #camp-info .camp-info dd {\n    margin-top: 0.3em;\n  }\n}\n\n#camp-info .camp-info .camp-no {\n  width: 3em;\n  font-weight: 700;\n}\n@media screen and (max-width: 375px) {\n  #camp-info .camp-info .camp-no {\n    display: block;\n  }\n}\n\n#camp-info .camp-info .camp-date {\n  width: 4em;\n}\n#camp-info .camp-info .camp-day {\n  font-weight: 700;\n  width: 2em;\n}\n#camp-info .camp-info .camp-wave {\n  width: 1em;\n}\n#camp-info .camp-info .camp-loc {\n  position: relative;\n}\n#camp-info .camp-info .camp-loc::before {\n  content: '';\n  position: absolute;\n  top: 90%;\n  width: 100%;\n  height: 0.25em;\n  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background-size: 0.5em 0.5em;\n  background-repeat: repeat-x, repeat-x;\n}\n#camp-info .camp-info .loc-name {\n  width: 230px;\n}\n#camp-info .camp-info .loc-addr {\n  width: 250px;\n  font-size: 11pt;\n}\n\n#camp-info .discount {\n  padding: 1em 0;\n  margin: 4em 0;\n}\n#camp-info .discount .title {\n  font-weight: 700;\n  font-size: 1.2em;\n  text-align: left;\n}\n#camp-info .discount img {\n  height: 6em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .discount img {\n    margin-top: 2em;\n  }\n}\n", ""]);
+	exports.push([module.id, "#camp-info .info-left {\n  padding-right: 3em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .info-left {\n    padding-right: 15px;\n  }\n}\n\n#camp-info .camp-title {\n  font-size: 3em;\n  font-weight: 700;\n}\n#camp-info .camp-subtitle {\n  font-size: 2em;\n  margin-bottom: 2em;\n}\n#camp-info .camp-info {\n}\n#camp-info .camp-info span {\n  display: inline-block;\n}\n#camp-info .camp-info dt {\n  font-weight: 400;\n  margin-top: 1em;\n}\n#camp-info .camp-info dd {\n  margin-top: 1em;\n}\n#camp-info .camp-info li {\n  margin-bottom: 1em;\n}\n@media screen and (max-width: 767px) {\n  #camp-info .camp-info dt {\n    font-size: 1.2em;\n  }\n  #camp-info .camp-info dd {\n    margin-top: 0.3em;\n  }\n}\n\n#camp-info .camp-info .camp-no {\n  width: 3em;\n  font-weight: 700;\n}\n@media screen and (max-width: 375px) {\n  #camp-info .camp-info .camp-no {\n    display: block;\n  }\n}\n\n#camp-info .camp-info .camp-date {\n  width: 4em;\n}\n#camp-info .camp-info .camp-day {\n  font-weight: 700;\n  width: 2em;\n}\n#camp-info .camp-info .camp-wave {\n  width: 1em;\n}\n#camp-info .camp-info .camp-loc {\n  position: relative;\n}\n#camp-info .camp-info .camp-loc::before {\n  content: '';\n  position: absolute;\n  top: 90%;\n  width: 100%;\n  height: 0.25em;\n  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background-size: 0.5em 0.5em;\n  background-repeat: repeat-x, repeat-x;\n}\n#camp-info .camp-info .loc-name {\n  width: 230px;\n}\n#camp-info .camp-info .loc-addr {\n  width: 250px;\n  font-size: 11pt;\n}\n\n#camp-info .discount {\n  padding: 1em 0;\n  margin: 4em 0;\n}\n#camp-info .discount .title {\n  font-weight: 700;\n  font-size: 1.2em;\n  text-align: left;\n}\n#camp-info .discount img {\n  height: 6em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .discount img {\n    margin-top: 2em;\n  }\n}\n\n#camp-info .q {\n  margin-top: 2em;\n  font-weight: 700;\n}\n#camp-info .i {\n  width: 100%;\n}\n", ""]);
 
 	// exports
 

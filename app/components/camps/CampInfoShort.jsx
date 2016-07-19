@@ -35,12 +35,12 @@ export default class CampInfoShort extends React.Component {
 
               <dt className="col-sm-2">준비물</dt>
               <dd className="col-sm-10">{this.props.info.needed}</dd>
-
-              <div className="text-right">"비용은 별도 문의해주시기 바랍니다."</div>
-              <img src={this.props.info.image} className="img-responsive"/>
-
             </div>
           </dl>
+          <div className="col-xs-12">
+            <div className="text-right q">"비용은 별도 문의해주시기 바랍니다."</div>
+            <img src={this.props.info.image} className="img-responsive center-block i"/>
+          </div>
         </div>
       </section>
 		);

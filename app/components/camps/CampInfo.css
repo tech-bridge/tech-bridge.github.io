@@ -86,6 +86,7 @@
   margin: 4em 0;
 }
 #camp-info .discount .title {
+  float: left;
   font-weight: 700;
   font-size: 1.2em;
   text-align: left;

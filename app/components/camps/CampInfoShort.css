@@ -98,3 +98,11 @@
     margin-top: 2em;
   }
 }
+
+#camp-info .q {
+  margin-top: 2em;
+  font-weight: 700;
+}
+#camp-info .i {
+  width: 100%;
+}

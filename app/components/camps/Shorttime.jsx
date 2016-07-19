@@ -11,6 +11,7 @@ var data = [
     time: "오전 10:00 ~ 오후 1:00(3시간)",
     number: 8,
     needed: "노트북",
+    image: "img/web_short.png"
   },
   {
     title: "파이썬",
@@ -19,6 +20,7 @@ var data = [
     time: "오전 10:00 ~ 오후 1:00(3시간)",
     number: 8,
     needed: "노트북",
+    image: "img/python_short.png"
   },
 ];
 

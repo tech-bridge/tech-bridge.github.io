@@ -21,7 +21,7 @@ var Nav = (props) => {
           <Link to="shorttime" activeClassName="active">단기과정</Link>
           </li>
         <li role="presentation">
-          <Link to="oneday" activeClassName="active">1day Class</Link>
+          <Link to="oneday" activeClassName="active">1Day Class</Link>
         </li>
       </ul>
     </nav>

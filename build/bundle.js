@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d1629bb022fa020c9eee"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "1ef188535cdf24460dc4"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -11032,23 +11032,23 @@
 
 	var _Sam2 = _interopRequireDefault(_Sam);
 
-	var _Scratch = __webpack_require__(344);
+	var _Scratch = __webpack_require__(356);
 
 	var _Scratch2 = _interopRequireDefault(_Scratch);
 
-	var _Web = __webpack_require__(345);
+	var _Web = __webpack_require__(357);
 
 	var _Web2 = _interopRequireDefault(_Web);
 
-	var _Python = __webpack_require__(346);
+	var _Python = __webpack_require__(358);
 
 	var _Python2 = _interopRequireDefault(_Python);
 
-	var _Shorttime = __webpack_require__(347);
+	var _Shorttime = __webpack_require__(359);
 
 	var _Shorttime2 = _interopRequireDefault(_Shorttime);
 
-	var _Oneday = __webpack_require__(348);
+	var _Oneday = __webpack_require__(360);
 
 	var _Oneday2 = _interopRequireDefault(_Oneday);
 
@@ -37704,7 +37704,7 @@
 	        React.createElement(
 	          Link,
 	          { to: 'oneday', activeClassName: 'active' },
-	          '1day Class'
+	          '1Day Class'
 	        )
 	      )
 	    )
@@ -37879,7 +37879,7 @@
 	exports.push([module.id, "@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);", ""]);
 
 	// module
-	exports.push([module.id, "body {\n    background: #F19B33; /* For browsers that do not support gradients */\n    background: -webkit-linear-gradient(#F59B20, #FDC70F); /* For Safari 5.1 to 6.0 */\n    background: -o-linear-gradient(#F59B20, #FDC70F); /* For Opera 11.1 to 12.0 */\n    background: -moz-linear-gradient(#F59B20, #FDC70F); /* For Firefox 3.6 to 15 */\n    background: linear-gradient(#F59B20, #FDC70F); /* Standard syntax */\n}\n\nbody, input, select, textarea {\n  font-family: 'Noto Sans KR', sans-serif;\n  font-size: 17pt;\n  font-weight: 300;\n  line-height: 1.65;\n}\n\nfooter {\n  font-size: 14pt;\n}\n\n  @media screen and (max-width: 1680px) {\n\n    body, input, select, textarea, footer {\n      font-size: 14pt;\n    }\n\n  }\n\n  @media screen and (max-width: 1280px) {\n\n    body, input, select, textarea, footer {\n      font-size: 12pt;\n    }\n\n  }\n\n  @media screen and (max-width: 360px) {\n\n    body, input, select, textarea, footer {\n      font-size: 11pt;\n    }\n\n  }\n\n.center-block {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\nheader {\n  margin-top: 120px;\n  color: #FFFFFF;\n}\n\nheader small {\n  color: #FFFFFF;\n  font-weight: 100;\n}\n\nheader p {\n  font-weight: 100;\n}\n\nheader .header-content {\n  margin-top: 105px;\n  margin-bottom: 50px;\n}\n\n.center-block {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\na {\n    color: #000;\n    text-decoration: none;\n}\n\n#nav {\n\t\t-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\t-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\t-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\ttransition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\tbackground-color: #F2F2F0;\n\t\tcolor: #636363;\n\t\tpadding: 1em;\n\t\tbackground-color: #F2F2F0;\n\t\tborder-top-left-radius: 1em;\n\t\tborder-top-right-radius: 1em;\n\t\tcursor: default;\n\t\ttext-align: center;\n}\n\n.nav>li>a {\n  font-size: 20px;\n  font-weight: 100;\n}\n.nav>li>a.active, .nav>li>a.active:focus, .nav>li>a.active:hover {\n  color: #fff;\n  background-color: #F19B33;\n}\n.nav>li>a:hover {\n  background-color: #ddd;\n}\n\nsection {\n\n}\n\nsection img.poster {\n  width: 100%;\n}\n\nfooter {\n  margin: 78px 0px;\n  font-weight: 400;\n}\n\nfooter img.footer-logo {\n  margin-bottom: 30px;\n}\n\nfooter .company-info {\n  margin-top: 50px;\n}\n\nfooter .company-info span {\n  display: block;\n  height: 60px;\n  line-height: 60px;\n}\n\nfooter .company-info .icon {\n  display: inline;\n  width: 2em;\n  margin-right: 1em;\n}\n", ""]);
+	exports.push([module.id, ".col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,\n.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,\n.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,\n.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,\n.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,\n.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,\n.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,\n.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,\n.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,\n.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,\n.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,\n.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {\n}\n\nbody {\n    background: #F19B33; /* For browsers that do not support gradients */\n    background: -webkit-linear-gradient(#F59B20, #FDC70F); /* For Safari 5.1 to 6.0 */\n    background: -o-linear-gradient(#F59B20, #FDC70F); /* For Opera 11.1 to 12.0 */\n    background: -moz-linear-gradient(#F59B20, #FDC70F); /* For Firefox 3.6 to 15 */\n    background: linear-gradient(#F59B20, #FDC70F); /* Standard syntax */\n}\n\nbody, input, select, textarea {\n  font-family: 'Noto Sans KR', sans-serif;\n  font-size: 17pt;\n  font-weight: 300;\n  line-height: 1.65;\n}\n\nfooter {\n  font-size: 14pt;\n}\n\n@media (min-width: 1600px) {\n  .container {\n      width: 1570px;\n  }\n}\n\n  @media screen and (max-width: 1600px) {\n\n    body, input, select, textarea, footer {\n      font-size: 14pt;\n    }\n\n  }\n\n  @media screen and (max-width: 1200px) {\n\n    body, input, select, textarea, footer {\n      font-size: 11pt;\n    }\n\n  }\n\n  @media screen and (max-width: 360px) {\n\n    body, input, select, textarea, footer {\n      font-size: 11pt;\n    }\n\n    section {\n      padding: 1em;\n    }\n\n  }\n\n.center-block {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\nheader {\n  margin-top: 120px;\n  color: #FFFFFF;\n}\n\nheader small {\n  color: #FFFFFF;\n  font-weight: 300;\n}\n\nheader p {\n  font-weight: 300;\n}\n\nheader .header-content {\n  margin-top: 105px;\n  margin-bottom: 50px;\n}\n\n.center-block {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\na {\n    color: #000;\n    text-decoration: none;\n}\n\nnav {\n\t\t-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\t-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\t-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\ttransition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\tbackground-color: #F2F2F0;\n\t\tcolor: #636363;\n\t\tpadding: 1em 3em;\n\t\tbackground-color: #F2F2F0;\n\t\tborder-top-left-radius: 1em;\n\t\tborder-top-right-radius: 1em;\n\t\tcursor: default;\n\t\ttext-align: center;\n}\n@media screen and (max-width: 991px) {\n  nav {\n    padding: 1em;\n  }\n}\n\n.nav>li {\n  vertical-align: middle;\n}\n.nav>li>a {\n  font-size: 17pt;\n  font-weight: 100;\n}\n.nav>li>a.active, .nav>li>a.active:focus, .nav>li>a.active:hover {\n  color: #fff;\n  background-color: #F19B33;\n}\n.nav>li>a:hover {\n  background-color: #ddd;\n}\n\nfooter {\n  margin: 78px 0px;\n  font-weight: 400;\n}\n\nfooter img.footer-logo {\n  margin-bottom: 30px;\n}\n\nfooter .company-info {\n  margin-top: 50px;\n}\n\nfooter .company-info span {\n  display: block;\n  height: 60px;\n  line-height: 60px;\n}\n\nfooter .company-info .icon {\n  display: inline;\n  width: 2em;\n  margin-right: 1em;\n}\n\n.highlight {\n  background-color: #F19B33;\n  color: #fff;\n}\n\n.circle {\n  display: inline-block;\n  width: 2em;\n  height: 2em;\n  text-align: center;\n  border-radius: 50%;\n  font-weight: 700;\n  padding: 0.1em;\n}\n\n.white {\n  background-color: #fff;\n  color: #F19B33;\n}\n\n.text-center {\n  text-align: center;\n}\n", ""]);
 
 	// exports
 
@@ -37888,30 +37888,894 @@
 /* 343 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
-	var React = __webpack_require__(104);
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
 
-	var Sam = function Sam(props) {
-	  return React.createElement(
-	    "section",
-	    null,
-	    React.createElement(
-	      "div",
-	      { className: "row" },
-	      React.createElement(
-	        "div",
-	        { className: "col-md-12" },
-	        React.createElement("img", { src: "img/sam.png", alt: "", className: "img-responsive poster" })
-	      )
-	    )
-	  );
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _Poster = __webpack_require__(344);
+
+	var _Poster2 = _interopRequireDefault(_Poster);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var samData = {
+	  info: {
+	    title: "코딩 SAM",
+	    subtitle: "Camp 1",
+	    target: "코딩을 처음 접하는 초등학교 1~6학년 친구들",
+	    dates: [{
+	      no: "1차",
+	      startDate: "8월1일",
+	      startDay: "월",
+	      endDate: "8월3일",
+	      endDay: "수",
+	      location: "강남"
+	    }, {
+	      no: "2차",
+	      startDate: "8월8일",
+	      startDay: "월",
+	      endDate: "8월10일",
+	      endDay: "수",
+	      location: "강남/목동"
+	    }, {
+	      no: "3차",
+	      startDate: "8월15일",
+	      startDay: "월",
+	      endDate: "8월17일",
+	      endDay: "수",
+	      location: "목동/송도"
+	    }],
+	    time: "오전 10:00 ~ 오후 1:00(3시간)",
+	    persons: "각 캠프 당 선착순 16명(소수 정예)",
+	    needed: "노트북",
+	    price: "360,000원"
+	  },
+	  eduinfo: {
+	    desc: "아이들에게 어려운 코드 타이핑 과정 없이도 컴퓨터적 사고 능력과 창의력을 기를 수 있습니다. 특히 SAM을 통해 앞으로 보편화될 IoT 기술을 활용하여 나만 열 수 있는 금고, 운전할 수 있는 자동차 등을 만들고 놀면서 자연스럽게 기술을 배울 수 있습니다.",
+	    image: "",
+	    youtube: "https://www.youtube.com/embed/43ps5GV_rJk"
+	  },
+	  curri: [{
+	    day: "Day 1",
+	    contents: [{
+	      title: "SAM 소개",
+	      desc: "소개, 설치, 사용하는 방법을 배웁니다."
+	    }, {
+	      title: "나만의 만보계",
+	      desc: "SAM 의 장치와 센서를 활용하는 방법을 배웁니다."
+	    }]
+	  }, {
+	    day: "Day 2",
+	    contents: [{
+	      title: "훔쳐가지마 도둑아!",
+	      desc: "틸트 센서, 미디어 오브젝트 사용 방법을 배우고, 논리연산에 대해 배웁니다."
+	    }, {
+	      title: "나만 열 수 있는 금고",
+	      desc: "논리연산에 대한 심화내용을 배웁니다."
+	    }]
+	  }, {
+	    day: "Day 3",
+	    contents: [{
+	      title: "레이싱 시합",
+	      desc: "모터와 서보 사용방법을 배웁니다."
+	    }, {
+	      title: "자유 프로젝트",
+	      desc: "지금까지 배운 내용들을 활용하여 아이들 스스로 만들고 싶은 것을 만듭니다."
+	    }]
+	  }]
 	};
 
-	module.exports = Sam;
+	var Sam = function (_React$Component) {
+	  _inherits(Sam, _React$Component);
+
+	  function Sam(props) {
+	    _classCallCheck(this, Sam);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Sam).call(this, props));
+	  }
+
+	  _createClass(Sam, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_Poster2.default, { posterData: samData });
+	    }
+	  }]);
+
+	  return Sam;
+	}(_react2.default.Component);
+
+	exports.default = Sam;
 
 /***/ },
 /* 344 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _CampInfo = __webpack_require__(345);
+
+	var _CampInfo2 = _interopRequireDefault(_CampInfo);
+
+	var _Eduinfo = __webpack_require__(348);
+
+	var _Eduinfo2 = _interopRequireDefault(_Eduinfo);
+
+	var _Curri = __webpack_require__(351);
+
+	var _Curri2 = _interopRequireDefault(_Curri);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	__webpack_require__(354);
+
+	var Poster = function (_React$Component) {
+	  _inherits(Poster, _React$Component);
+
+	  function Poster(props) {
+	    _classCallCheck(this, Poster);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Poster).call(this, props));
+	  }
+
+	  _createClass(Poster, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { id: 'poster' },
+	        _react2.default.createElement(_CampInfo2.default, { info: this.props.posterData.info }),
+	        _react2.default.createElement('hr', null),
+	        _react2.default.createElement(_Eduinfo2.default, { eduinfo: this.props.posterData.eduinfo }),
+	        _react2.default.createElement('hr', null),
+	        _react2.default.createElement(_Curri2.default, { curri: this.props.posterData.curri })
+	      );
+	    }
+	  }]);
+
+	  return Poster;
+	}(_react2.default.Component);
+
+	exports.default = Poster;
+
+/***/ },
+/* 345 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	__webpack_require__(346);
+
+	var CampInfo = function (_React$Component) {
+	  _inherits(CampInfo, _React$Component);
+
+	  function CampInfo(props) {
+	    _classCallCheck(this, CampInfo);
+
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(CampInfo).call(this, props));
+
+	    _this.dateList = _this.props.info.dates.map(function (date) {
+	      return _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'span',
+	          { className: 'camp-no' },
+	          date.no
+	        ),
+	        _react2.default.createElement(
+	          'span',
+	          null,
+	          _react2.default.createElement(
+	            'span',
+	            { className: 'camp-date' },
+	            date.startDate
+	          ),
+	          _react2.default.createElement(
+	            'span',
+	            { className: 'camp-day' },
+	            date.startDay
+	          ),
+	          _react2.default.createElement(
+	            'span',
+	            { className: 'camp-wave' },
+	            '~'
+	          ),
+	          _react2.default.createElement(
+	            'span',
+	            { className: 'camp-date' },
+	            date.endDate
+	          ),
+	          _react2.default.createElement(
+	            'span',
+	            { className: 'camp-day' },
+	            date.endDay
+	          ),
+	          _react2.default.createElement(
+	            'span',
+	            { className: 'camp-loc' },
+	            date.location
+	          )
+	        )
+	      );
+	    });
+	    return _this;
+	  }
+
+	  _createClass(CampInfo, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'section',
+	        { id: 'camp-info' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'row' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'col-md-5' },
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'camp-title' },
+	              this.props.info.title
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'camp-subtitle' },
+	              this.props.info.subtitle
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'dl',
+	            { className: 'col-md-7 camp-info' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'row' },
+	              _react2.default.createElement(
+	                'dt',
+	                { className: 'col-sm-2' },
+	                '대상'
+	              ),
+	              _react2.default.createElement(
+	                'dd',
+	                { className: 'col-sm-10' },
+	                this.props.info.target
+	              ),
+	              _react2.default.createElement(
+	                'dt',
+	                { className: 'col-sm-2' },
+	                '일정'
+	              ),
+	              _react2.default.createElement(
+	                'dd',
+	                { className: 'col-sm-10' },
+	                _react2.default.createElement(
+	                  'ul',
+	                  { className: 'list-unstyled' },
+	                  this.dateList
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'dt',
+	                { className: 'col-sm-2' },
+	                '시간'
+	              ),
+	              _react2.default.createElement(
+	                'dd',
+	                { className: 'col-sm-10' },
+	                this.props.info.time
+	              ),
+	              _react2.default.createElement(
+	                'dt',
+	                { className: 'col-sm-2' },
+	                '장소'
+	              ),
+	              _react2.default.createElement(
+	                'dd',
+	                { className: 'col-sm-10' },
+	                _react2.default.createElement(
+	                  'ul',
+	                  { className: 'list-unstyled' },
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'span',
+	                      { className: 'loc-name' },
+	                      '[강남] ',
+	                      _react2.default.createElement(
+	                        'b',
+	                        null,
+	                        'CMAX'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'span',
+	                      { className: 'loc-addr' },
+	                      '서울특별시 강남구 테헤란로로1길 28-11'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'span',
+	                      { className: 'loc-name' },
+	                      '[목동] ',
+	                      _react2.default.createElement(
+	                        'b',
+	                        null,
+	                        '쉬라이크스커피'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'span',
+	                      { className: 'loc-addr' },
+	                      '서울특별시 양천구 목동 606-8'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'span',
+	                      { className: 'loc-name' },
+	                      '[송도] ',
+	                      _react2.default.createElement(
+	                        'b',
+	                        null,
+	                        '연세대학교 진리관'
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      'span',
+	                      { className: 'loc-addr' },
+	                      '인천광역시 연수구 송도과학로 85'
+	                    )
+	                  )
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'dt',
+	                { className: 'col-sm-2' },
+	                '인원'
+	              ),
+	              _react2.default.createElement(
+	                'dd',
+	                { className: 'col-sm-10' },
+	                this.props.info.persons
+	              ),
+	              _react2.default.createElement(
+	                'dt',
+	                { className: 'col-sm-2' },
+	                '준비물'
+	              ),
+	              _react2.default.createElement(
+	                'dd',
+	                { className: 'col-sm-10' },
+	                this.props.info.needed
+	              ),
+	              _react2.default.createElement(
+	                'dt',
+	                { className: 'col-sm-2' },
+	                '참가비'
+	              ),
+	              _react2.default.createElement(
+	                'dd',
+	                { className: 'col-sm-10' },
+	                this.props.info.price
+	              ),
+	              _react2.default.createElement(
+	                'dt',
+	                { className: 'col-sm-2' },
+	                _react2.default.createElement(
+	                  'span',
+	                  { className: 'highlight' },
+	                  '결제방법'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'dd',
+	                { className: 'col-sm-10' },
+	                _react2.default.createElement(
+	                  'span',
+	                  null,
+	                  '계좌 이체'
+	                ),
+	                _react2.default.createElement('br', null),
+	                _react2.default.createElement(
+	                  'span',
+	                  null,
+	                  _react2.default.createElement(
+	                    'b',
+	                    null,
+	                    '하나은행 (주)테크브릿지지 771-910020-59704'
+	                  )
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'row' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'col-xs-12 highlight text-center discount' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'col-md-1 title' },
+	              _react2.default.createElement(
+	                'span',
+	                null,
+	                '할인',
+	                _react2.default.createElement('br', null),
+	                '혜택'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'col-md-3' },
+	              _react2.default.createElement('img', { src: 'img/bird.png', className: 'img-responsive center-block' }),
+	              _react2.default.createElement(
+	                'div',
+	                null,
+	                _react2.default.createElement(
+	                  'span',
+	                  { className: 'white circle' },
+	                  '1'
+	                ),
+	                '   Early Bird(~7/24)',
+	                _react2.default.createElement('br', null),
+	                _react2.default.createElement(
+	                  'b',
+	                  null,
+	                  '320,000원'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'col-md-4' },
+	              _react2.default.createElement('img', { src: 'img/oneplus.png', className: 'img-responsive center-block' }),
+	              _react2.default.createElement(
+	                'div',
+	                null,
+	                _react2.default.createElement(
+	                  'span',
+	                  { className: 'white circle' },
+	                  '2'
+	                ),
+	                '   \'소개해준 분, 소개받은 분 모두!\'',
+	                _react2.default.createElement('br', null),
+	                '1+1 할인가 ',
+	                _react2.default.createElement(
+	                  'b',
+	                  null,
+	                  '320,000원'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'col-md-4' },
+	              _react2.default.createElement('img', { src: 'img/20off.png', className: 'img-responsive center-block' }),
+	              _react2.default.createElement(
+	                'div',
+	                null,
+	                _react2.default.createElement(
+	                  'span',
+	                  { className: 'white circle' },
+	                  '3'
+	                ),
+	                '   Tech Camp 수료자 정규과정 할인',
+	                _react2.default.createElement('br', null),
+	                '테크브릿지 정규과정 등록 시 첫달 ',
+	                _react2.default.createElement(
+	                  'b',
+	                  null,
+	                  '20% 할인!'
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return CampInfo;
+	}(_react2.default.Component);
+
+	exports.default = CampInfo;
+
+/***/ },
+/* 346 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(347);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(14)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(true) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept(347, function() {
+				var newContent = __webpack_require__(347);
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 347 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(8)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "#camp-info .camp-title {\n  font-size: 3em;\n  font-weight: 700;\n}\n#camp-info .camp-subtitle {\n  font-size: 2em;\n}\n#camp-info .camp-info {\n}\n#camp-info .camp-info span {\n  display: inline-block;\n}\n#camp-info .camp-info dt {\n  font-weight: 400;\n  margin-top: 1em;\n}\n#camp-info .camp-info dd {\n  margin-top: 1em;\n}\n#camp-info .camp-info li {\n  margin-bottom: 1em;\n}\n@media screen and (max-width: 767px) {\n  #camp-info .camp-info dt {\n    font-size: 1.2em;\n  }\n  #camp-info .camp-info dd {\n    margin-top: 0.3em;\n  }\n}\n\n#camp-info .camp-info .camp-no {\n  width: 3em;\n  font-weight: 700;\n}\n@media screen and (max-width: 375px) {\n  #camp-info .camp-info .camp-no {\n    display: block;\n  }\n}\n\n#camp-info .camp-info .camp-date {\n  width: 4em;\n}\n#camp-info .camp-info .camp-day {\n  font-weight: 700;\n  width: 2em;\n}\n#camp-info .camp-info .camp-wave {\n  width: 1em;\n}\n#camp-info .camp-info .camp-loc {\n  position: relative;\n}\n#camp-info .camp-info .camp-loc::before {\n  content: '';\n  position: absolute;\n  top: 90%;\n  width: 100%;\n  height: 0.25em;\n  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background-size: 0.5em 0.5em;\n  background-repeat: repeat-x, repeat-x;\n}\n#camp-info .camp-info .loc-name {\n  width: 230px;\n}\n#camp-info .camp-info .loc-addr {\n  width: 250px;\n  font-size: 11pt;\n}\n\n#camp-info .discount {\n  padding: 1em 0;\n  margin: 4em 0;\n}\n#camp-info .discount .title {\n  font-weight: 700;\n  font-size: 1.2em;\n  text-align: left;\n}\n#camp-info .discount img {\n  height: 6em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .discount img {\n    margin-top: 2em;\n  }\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 348 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	__webpack_require__(349);
+
+	var Eduinfo = function (_React$Component) {
+	  _inherits(Eduinfo, _React$Component);
+
+	  function Eduinfo(props) {
+	    _classCallCheck(this, Eduinfo);
+
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Eduinfo).call(this, props));
+
+	    if (_this.props.eduinfo.image.length > 0) {
+	      _this.post = _react2.default.createElement(
+	        'div',
+	        { className: 'col-md-6 youtube-wrapper' },
+	        _react2.default.createElement('iframe', { src: 'https://www.youtube.com/embed/43ps5GV_rJk', frameborder: '0', allowfullscreen: true, className: 'center-block' })
+	      );
+	    } else {
+	      _this.post = _react2.default.createElement(
+	        'div',
+	        { className: 'col-md-6 youtube-wrapper' },
+	        _react2.default.createElement('iframe', { src: 'https://www.youtube.com/embed/43ps5GV_rJk', frameborder: '0', allowfullscreen: true, className: 'center-block' })
+	      );
+	    }
+	    return _this;
+	  }
+
+	  _createClass(Eduinfo, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'section',
+	        { id: 'eduinfo' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'row' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'col-md-6' },
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'eduinfo-title' },
+	              '교육내용'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              this.props.eduinfo.desc
+	            )
+	          ),
+	          this.post
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Eduinfo;
+	}(_react2.default.Component);
+
+	exports.default = Eduinfo;
+
+/***/ },
+/* 349 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(350);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(14)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(true) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept(350, function() {
+				var newContent = __webpack_require__(350);
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 350 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(8)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "#eduinfo {\n  padding-top: 3em;\n  padding-bottom: 3em;\n}\n\n#eduinfo .eduinfo-title {\n  font-size: 2em;\n  font-weight: 700;\n  /*  shadows render better in certain browsers than text, first rule is for older browser support  */\n  color: #333;\n  color: transparent;\n  text-shadow: 0 0 #333, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff;\n  /*  gradient background allows us to use css only & re-position it  */\n  background: -webkit-linear-gradient(#F19B33, #F19B33) left 1.80em no-repeat;\n  background: linear-gradient(#F19B33, #F19B33) left 1.80em no-repeat;\n  /*  can precisely control size in relation to the text  */\n  background-size: 80% 0.2em;\n  /*  now the underline supports transitions  */\n  -webkit-transition: .2s ease;\n  transition: .2s ease;\n\n  display: inline-block;\n  height: 2em;\n  margin-bottom: 1em;\n}\n\n#eduinfo .youtube-wrapper {\n  position: relative;\n  padding-bottom: 20em;\n  padding-top: 1em;\n  height: 0;\n}\n\n#eduinfo iframe {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 351 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	__webpack_require__(352);
+
+	var Curri = function (_React$Component) {
+	  _inherits(Curri, _React$Component);
+
+	  function Curri(props) {
+	    _classCallCheck(this, Curri);
+
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Curri).call(this, props));
+
+	    _this.days = _this.props.curri.map(function (curri) {
+	      var contents = curri.contents.map(function (content) {
+	        return _react2.default.createElement(
+	          'div',
+	          null,
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'col-md-3 curri-title' },
+	            content.title
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'col-md-9 curri-desc' },
+	            content.desc
+	          )
+	        );
+	      });
+
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'row' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-md-2 curri-day' },
+	          _react2.default.createElement(
+	            'span',
+	            { className: 'circle highlight' },
+	            curri.day
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-md-10' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'row curri-contents' },
+	            contents
+	          )
+	        )
+	      );
+	    });
+	    return _this;
+	  }
+
+	  _createClass(Curri, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'section',
+	        { id: 'curri' },
+	        this.days
+	      );
+	    }
+	  }]);
+
+	  return Curri;
+	}(_react2.default.Component);
+
+	exports.default = Curri;
+
+/***/ },
+/* 352 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(353);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(14)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(true) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept(353, function() {
+				var newContent = __webpack_require__(353);
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 353 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(8)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "#curri .curri-day>span {\n  padding-top: 0.8em;\n  font-size: 2em;\n  width: 3.5em;\n  height: 3.5em;\n}\n#curri .curri-contents {\n  padding-top: 1.5em;\n}\n#curri .curri-title {\n  font-weight: 700;\n}\n#curri .curri-desc {\n\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 354 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(355);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(14)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(true) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept(355, function() {
+				var newContent = __webpack_require__(355);
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 355 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(8)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "#poster {\n  padding: 4em 0;\n  background-color: #fff;\n  border-bottom-left-radius: 1em;\n  border-bottom-right-radius: 1em;\n}\n\n#poster hr {\n  border-top: 1px solid #BEBFC0;\n}\n\nsection {\n  padding: 0 3em;\n}\n@media screen and (max-width: 767px) {\n  section {\n    padding: 1em;\n  }\n}\n\nsection img.poster {\n  width: 100%;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 356 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -37937,7 +38801,7 @@
 	module.exports = Scratch;
 
 /***/ },
-/* 345 */
+/* 357 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -37963,7 +38827,7 @@
 	module.exports = Web;
 
 /***/ },
-/* 346 */
+/* 358 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -37989,7 +38853,7 @@
 	module.exports = Python;
 
 /***/ },
-/* 347 */
+/* 359 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -38015,7 +38879,7 @@
 	module.exports = Shorttime;
 
 /***/ },
-/* 348 */
+/* 360 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";

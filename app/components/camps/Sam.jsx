@@ -1,132 +1,98 @@
-var React = require('react');
+import React from 'react';
 
-var Sam = (props) => {
-  return (
-    <section>
-      <div className="row">
-        <div className="col-md-5">
-          <p className="camp-title">코딩 SAM</p>
-          <p className="camp-subtitle">Camp 1</p>
-        </div>
-        <dl className="col-md-7 camp-info">
-          <div className="row">
-            <dt className="col-sm-2">대상</dt>
-            <dd className="col-sm-10">코딩을 처음 접하는 초등학교 1~6학년 친구들</dd>
+import Poster from './Poster.jsx';
 
-            <dt className="col-sm-2">일정</dt>
-            <dd className="col-sm-10">
-              <ul className="list-unstyled">
-                <li>
-                  <span className="camp-no">1차</span>
-                  <span>
-                    <span className="camp-date">8월1일</span>
-                    <span className="camp-day">월</span>
-                    <span className="camp-wave">~</span>
-                    <span className="camp-date">8월3일</span>
-                    <span className="camp-day">수</span>
-                    <span className="camp-loc">강남</span>
-                  </span>
-                </li>
-                <li>
-                  <span className="camp-no">2차</span>
-                  <span>
-                    <span className="camp-date">8월8일</span>
-                    <span className="camp-day">월</span>
-                    <span className="camp-wave">~</span>
-                    <span className="camp-date">8월10일</span>
-                    <span className="camp-day">수</span>
-                    <span className="camp-loc">강남/목동</span>
-                  </span>
-                </li>
-                <li>
-                  <span className="camp-no">3차</span>
-                  <span>
-                    <span className="camp-date">8월15일</span>
-                    <span className="camp-day">월</span>
-                    <span className="camp-wave">~</span>
-                    <span className="camp-date">8월17일</span>
-                    <span className="camp-day">수</span>
-                    <span className="camp-loc">목동/송도</span>
-                  </span>
-                </li>
-              </ul>
-            </dd>
+var samData = {
+  info: {
+    title: "코딩 SAM",
+    subtitle: "Camp 1",
+    target: "코딩을 처음 접하는 초등학교 1~6학년 친구들",
+    dates: [
+      {
+        no: "1차",
+        startDate: "8월1일",
+        startDay: "월",
+        endDate: "8월3일",
+        endDay: "수",
+        location: "강남"
+      },
+      {
+        no: "2차",
+        startDate: "8월8일",
+        startDay: "월",
+        endDate: "8월10일",
+        endDay: "수",
+        location: "강남/목동"
+      },
+      {
+        no: "3차",
+        startDate: "8월15일",
+        startDay: "월",
+        endDate: "8월17일",
+        endDay: "수",
+        location: "목동/송도"
+      }
+    ],
+    time: "오전 10:00 ~ 오후 1:00(3시간)",
+    persons: "각 캠프 당 선착순 16명(소수 정예)",
+    needed: "노트북",
+    price: "360,000원",
+  },
+  eduinfo: {
+    desc: "아이들에게 어려운 코드 타이핑 과정 없이도 컴퓨터적 사고 능력과 창의력을 기를 수 있습니다. 특히 SAM을 통해 앞으로 보편화될 IoT 기술을 활용하여 나만 열 수 있는 금고, 운전할 수 있는 자동차 등을 만들고 놀면서 자연스럽게 기술을 배울 수 있습니다.",
+    image: "",
+    youtube: "https://www.youtube.com/embed/43ps5GV_rJk"
+  },
+  curri: [
+    {
+      day: "Day 1",
+      contents: [
+        {
+          title: "SAM 소개",
+          desc: "소개, 설치, 사용하는 방법을 배웁니다."
+        },
+        {
+          title: "나만의 만보계",
+          desc: "SAM 의 장치와 센서를 활용하는 방법을 배웁니다."
+        }
+      ]
+    },
+    {
+      day: "Day 2",
+      contents: [
+        {
+          title: "훔쳐가지마 도둑아!",
+          desc: "틸트 센서, 미디어 오브젝트 사용 방법을 배우고, 논리연산에 대해 배웁니다."
+        },
+        {
+          title: "나만 열 수 있는 금고",
+          desc: "논리연산에 대한 심화내용을 배웁니다."
+        }
+      ]
+    },
+    {
+      day: "Day 3",
+      contents: [
+        {
+          title: "레이싱 시합",
+          desc: "모터와 서보 사용방법을 배웁니다."
+        },
+        {
+          title: "자유 프로젝트",
+          desc: "지금까지 배운 내용들을 활용하여 아이들 스스로 만들고 싶은 것을 만듭니다."
+        }
+      ]
+    },
+  ]
+};
+export default class Sam extends React.Component {
+	constructor(props) {
+		super(props);
+	}
 
-            <dt className="col-sm-2">시간</dt>
-            <dd className="col-sm-10">오전 10:00 ~ 오후후 1:00(3시간)</dd>
-
-            <dt className="col-sm-2">장소</dt>
-            <dd className="col-sm-10">
-              <ul className="list-unstyled">
-                <li>
-                  <span className="loc-name">[강남] <b>CMAX</b></span>
-                  <span className="loc-addr">서울특별시 강남구 테헤란로로1길 28-11</span>
-                </li>
-                <li>
-                  <span className="loc-name">[목동] <b>쉬라이크스커피</b></span>
-                  <span className="loc-addr">서울특별시 양천구 목동 606-8</span>
-                </li>
-                <li>
-                  <span className="loc-name">[송도] <b>연세대학교 진리관</b></span>
-                  <span className="loc-addr">인천광역시 연수구 송도과학로 85</span>
-                </li>
-              </ul>
-            </dd>
-
-            <dt className="col-sm-2">인원</dt>
-            <dd className="col-sm-10">각 캠프 당 선착순 16명(소수 정예)</dd>
-
-            <dt className="col-sm-2">준비물</dt>
-            <dd className="col-sm-10">노트북</dd>
-
-            <dt className="col-sm-2">참가비</dt>
-            <dd className="col-sm-10">360,000원</dd>
-
-            <dt className="col-sm-2"><span className="highlight">결제방법</span></dt>
-            <dd className="col-sm-10">계좌 이체, <b>하나은행 (주)테크브릿지지 771-910020-59704</b></dd>
-
-          </div>
-        </dl>
-      </div>
-      <div className="row">
-        <div className="col-xs-12 highlight text-center discount">
-          <div className="col-sm-1">
-            <span className="title">할인<br />혜택</span>
-          </div>
-          <div className="col-sm-3">
-            <img src="img/bird.png" className="img-responsive center-block" />
-            <div className="row">
-              <span className="white circle col-xs-2">1</span>
-              <span className="col-xs-10">
-                Early Bird(~7/24)<br /><b>320,000원</b>
-              </span>
-            </div>
-          </div>
-          <div className="col-sm-4">
-            <img src="img/oneplus.png" className="img-responsive center-block" />
-            <div className="row">
-              <span className="white circle col-xs-2">2</span>
-              <span className="col-xs-10">
-                '소개해준 분, 소개받은 분 모두!'<br />1+1 할인가 <b>320,000원</b>
-              </span>
-            </div>
-          </div>
-          <div className="col-sm-4">
-            <img src="img/20off.png" className="img-responsive center-block" />
-            <div className="row">
-              <span className="white circle col-xs-2">3</span>
-              <span className="col-xs-10">
-                Tech Camp 수료자 정규과정 할인
-              </span>
-              <span className="col-xs-12">
-                테크크브릿지 정규과정 등록 시 첫달 <b>20% 할인!</b>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+	render() {
+		return (
+      <Poster posterData={samData} />
+		);
+	}
 }
-
-module.exports = Sam;

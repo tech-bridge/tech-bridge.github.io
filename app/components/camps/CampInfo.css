@@ -1,0 +1,90 @@
+#camp-info .camp-title {
+  font-size: 3em;
+  font-weight: 700;
+}
+#camp-info .camp-subtitle {
+  font-size: 2em;
+}
+#camp-info .camp-info {
+}
+#camp-info .camp-info span {
+  display: inline-block;
+}
+#camp-info .camp-info dt {
+  font-weight: 400;
+  margin-top: 1em;
+}
+#camp-info .camp-info dd {
+  margin-top: 1em;
+}
+#camp-info .camp-info li {
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 767px) {
+  #camp-info .camp-info dt {
+    font-size: 1.2em;
+  }
+  #camp-info .camp-info dd {
+    margin-top: 0.3em;
+  }
+}
+
+#camp-info .camp-info .camp-no {
+  width: 3em;
+  font-weight: 700;
+}
+@media screen and (max-width: 375px) {
+  #camp-info .camp-info .camp-no {
+    display: block;
+  }
+}
+
+#camp-info .camp-info .camp-date {
+  width: 4em;
+}
+#camp-info .camp-info .camp-day {
+  font-weight: 700;
+  width: 2em;
+}
+#camp-info .camp-info .camp-wave {
+  width: 1em;
+}
+#camp-info .camp-info .camp-loc {
+  position: relative;
+}
+#camp-info .camp-info .camp-loc::before {
+  content: '';
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  height: 0.25em;
+  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);
+  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);
+  background-size: 0.5em 0.5em;
+  background-repeat: repeat-x, repeat-x;
+}
+#camp-info .camp-info .loc-name {
+  width: 230px;
+}
+#camp-info .camp-info .loc-addr {
+  width: 250px;
+  font-size: 11pt;
+}
+
+#camp-info .discount {
+  padding: 1em 0;
+  margin: 4em 0;
+}
+#camp-info .discount .title {
+  font-weight: 700;
+  font-size: 1.2em;
+  text-align: left;
+}
+#camp-info .discount img {
+  height: 6em;
+}
+@media screen and (max-width: 991px) {
+  #camp-info .discount img {
+    margin-top: 2em;
+  }
+}

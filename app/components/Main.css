@@ -1,5 +1,19 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
+.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+}
+
 body {
     background: #F19B33; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#F59B20, #FDC70F); /* For Safari 5.1 to 6.0 */
@@ -19,7 +33,13 @@ footer {
   font-size: 14pt;
 }
 
-  @media screen and (max-width: 1680px) {
+@media (min-width: 1600px) {
+  .container {
+      width: 1570px;
+  }
+}
+
+  @media screen and (max-width: 1600px) {
 
     body, input, select, textarea, footer {
       font-size: 14pt;
@@ -27,10 +47,10 @@ footer {
 
   }
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1200px) {
 
     body, input, select, textarea, footer {
-      font-size: 12pt;
+      font-size: 11pt;
     }
 
   }
@@ -60,11 +80,11 @@ header {
 
 header small {
   color: #FFFFFF;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 header p {
-  font-weight: 100;
+  font-weight: 300;
 }
 
 header .header-content {
@@ -116,105 +136,6 @@ nav {
 }
 .nav>li>a:hover {
   background-color: #ddd;
-}
-
-section {
-  padding: 4em 3em;
-  background-color: #fff;
-  border-bottom-left-radius: 1em;
-  border-bottom-right-radius: 1em;
-}
-@media screen and (max-width: 767px) {
-  section {
-    padding: 1em;
-  }
-}
-
-section img.poster {
-  width: 100%;
-}
-section .camp-title {
-  font-size: 3em;
-  font-weight: 700;
-}
-section .camp-subtitle {
-  font-size: 2em;
-}
-section .camp-info {
-}
-section .camp-info span {
-  display: inline-block;
-}
-section .camp-info dt {
-  font-weight: 400;
-  margin-top: 1em;
-}
-section .camp-info dd {
-  margin-top: 1em;
-}
-section .camp-info li {
-  margin-bottom: 1em;
-}
-@media screen and (max-width: 767px) {
-  section .camp-info dt {
-    font-size: 1.2em;
-  }
-  section .camp-info dd {
-    margin-top: 0.3em;
-  }
-}
-
-section .camp-info .camp-no {
-  width: 3em;
-  font-weight: 700;
-}
-@media screen and (max-width: 375px) {
-  section .camp-info .camp-no {
-    display: block;
-  }
-}
-
-section .camp-info .camp-date {
-  width: 4em;
-}
-section .camp-info .camp-day {
-  font-weight: 700;
-  width: 2em;
-}
-section .camp-info .camp-wave {
-  width: 1em;
-}
-section .camp-info .camp-loc {
-  position: relative;
-}
-section .camp-info .camp-loc::before {
-  content: '';
-  position: absolute;
-  top: 90%;
-  width: 100%;
-  height: 0.25em;
-  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);
-  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);
-  background-size: 0.5em 0.5em;
-  background-repeat: repeat-x, repeat-x;
-}
-section .camp-info .loc-name {
-  width: 220px;
-}
-section .camp-info .loc-addr {
-  font-size: 11pt;
-}
-
-section .discount {
-  padding: 1em 0;
-  margin: 4em 0;
-}
-section .discount .title {
-  font-weight: 700;
-  font-size: 1.2em;
-}
-section .discount img {
-  height: 6em;
 }
 
 footer {

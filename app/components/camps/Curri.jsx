@@ -21,7 +21,7 @@ export default class Curri extends React.Component {
       });
 
       return (
-        <div className="row">
+        <div className="row curri-row">
           <div className="col-md-2 curri-day">
             <span className="circle highlight">{curri.day}</span>
           </div>

@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "1ef188535cdf24460dc4"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "d18825034876a9953f50"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -11032,23 +11032,23 @@
 
 	var _Sam2 = _interopRequireDefault(_Sam);
 
-	var _Scratch = __webpack_require__(356);
+	var _Scratch = __webpack_require__(362);
 
 	var _Scratch2 = _interopRequireDefault(_Scratch);
 
-	var _Web = __webpack_require__(357);
+	var _Web = __webpack_require__(363);
 
 	var _Web2 = _interopRequireDefault(_Web);
 
-	var _Python = __webpack_require__(358);
+	var _Python = __webpack_require__(364);
 
 	var _Python2 = _interopRequireDefault(_Python);
 
-	var _Shorttime = __webpack_require__(359);
+	var _Shorttime = __webpack_require__(365);
 
 	var _Shorttime2 = _interopRequireDefault(_Shorttime);
 
-	var _Oneday = __webpack_require__(360);
+	var _Oneday = __webpack_require__(372);
 
 	var _Oneday2 = _interopRequireDefault(_Oneday);
 
@@ -37879,7 +37879,7 @@
 	exports.push([module.id, "@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);", ""]);
 
 	// module
-	exports.push([module.id, ".col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,\n.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,\n.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,\n.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,\n.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,\n.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,\n.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,\n.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,\n.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,\n.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,\n.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,\n.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {\n}\n\nbody {\n    background: #F19B33; /* For browsers that do not support gradients */\n    background: -webkit-linear-gradient(#F59B20, #FDC70F); /* For Safari 5.1 to 6.0 */\n    background: -o-linear-gradient(#F59B20, #FDC70F); /* For Opera 11.1 to 12.0 */\n    background: -moz-linear-gradient(#F59B20, #FDC70F); /* For Firefox 3.6 to 15 */\n    background: linear-gradient(#F59B20, #FDC70F); /* Standard syntax */\n}\n\nbody, input, select, textarea {\n  font-family: 'Noto Sans KR', sans-serif;\n  font-size: 17pt;\n  font-weight: 300;\n  line-height: 1.65;\n}\n\nfooter {\n  font-size: 14pt;\n}\n\n@media (min-width: 1600px) {\n  .container {\n      width: 1570px;\n  }\n}\n\n  @media screen and (max-width: 1600px) {\n\n    body, input, select, textarea, footer {\n      font-size: 14pt;\n    }\n\n  }\n\n  @media screen and (max-width: 1200px) {\n\n    body, input, select, textarea, footer {\n      font-size: 11pt;\n    }\n\n  }\n\n  @media screen and (max-width: 360px) {\n\n    body, input, select, textarea, footer {\n      font-size: 11pt;\n    }\n\n    section {\n      padding: 1em;\n    }\n\n  }\n\n.center-block {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\nheader {\n  margin-top: 120px;\n  color: #FFFFFF;\n}\n\nheader small {\n  color: #FFFFFF;\n  font-weight: 300;\n}\n\nheader p {\n  font-weight: 300;\n}\n\nheader .header-content {\n  margin-top: 105px;\n  margin-bottom: 50px;\n}\n\n.center-block {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\na {\n    color: #000;\n    text-decoration: none;\n}\n\nnav {\n\t\t-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\t-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\t-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\ttransition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\tbackground-color: #F2F2F0;\n\t\tcolor: #636363;\n\t\tpadding: 1em 3em;\n\t\tbackground-color: #F2F2F0;\n\t\tborder-top-left-radius: 1em;\n\t\tborder-top-right-radius: 1em;\n\t\tcursor: default;\n\t\ttext-align: center;\n}\n@media screen and (max-width: 991px) {\n  nav {\n    padding: 1em;\n  }\n}\n\n.nav>li {\n  vertical-align: middle;\n}\n.nav>li>a {\n  font-size: 17pt;\n  font-weight: 100;\n}\n.nav>li>a.active, .nav>li>a.active:focus, .nav>li>a.active:hover {\n  color: #fff;\n  background-color: #F19B33;\n}\n.nav>li>a:hover {\n  background-color: #ddd;\n}\n\nfooter {\n  margin: 78px 0px;\n  font-weight: 400;\n}\n\nfooter img.footer-logo {\n  margin-bottom: 30px;\n}\n\nfooter .company-info {\n  margin-top: 50px;\n}\n\nfooter .company-info span {\n  display: block;\n  height: 60px;\n  line-height: 60px;\n}\n\nfooter .company-info .icon {\n  display: inline;\n  width: 2em;\n  margin-right: 1em;\n}\n\n.highlight {\n  background-color: #F19B33;\n  color: #fff;\n}\n\n.circle {\n  display: inline-block;\n  width: 2em;\n  height: 2em;\n  text-align: center;\n  border-radius: 50%;\n  font-weight: 700;\n  padding: 0.1em;\n}\n\n.white {\n  background-color: #fff;\n  color: #F19B33;\n}\n\n.text-center {\n  text-align: center;\n}\n", ""]);
+	exports.push([module.id, ".col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,\n.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,\n.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,\n.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,\n.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,\n.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,\n.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,\n.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,\n.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,\n.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,\n.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,\n.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {\n}\n\nbody {\n    background: #F19B33; /* For browsers that do not support gradients */\n    background: -webkit-linear-gradient(#F59B20, #FDC70F); /* For Safari 5.1 to 6.0 */\n    background: -o-linear-gradient(#F59B20, #FDC70F); /* For Opera 11.1 to 12.0 */\n    background: -moz-linear-gradient(#F59B20, #FDC70F); /* For Firefox 3.6 to 15 */\n    background: linear-gradient(#F59B20, #FDC70F); /* Standard syntax */\n}\n\nbody, input, select, textarea {\n  font-family: 'Noto Sans KR', sans-serif;\n  font-size: 17pt;\n  font-weight: 300;\n  line-height: 1.65;\n}\n\nfooter {\n  font-size: 14pt;\n}\n\n@media (min-width: 1600px) {\n  .container {\n      width: 1570px;\n  }\n}\n\n  @media screen and (max-width: 1600px) {\n\n    body, input, select, textarea, footer {\n      font-size: 14pt;\n    }\n\n  }\n\n  @media screen and (max-width: 1200px) {\n\n    body, input, select, textarea, footer {\n      font-size: 11pt;\n    }\n\n  }\n\n  @media screen and (max-width: 360px) {\n\n    body, input, select, textarea, footer {\n      font-size: 11pt;\n    }\n\n    section {\n      padding: 1em;\n    }\n\n  }\n\n.center-block {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\nheader {\n  margin-top: 120px;\n  color: #FFFFFF;\n}\n\nheader small {\n  color: #FFFFFF;\n  font-weight: 300;\n}\n\nheader p {\n  font-weight: 300;\n}\n\nheader .header-content {\n  margin-top: 105px;\n  margin-bottom: 50px;\n}\n\n.center-block {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\na {\n    color: #000;\n    text-decoration: none;\n}\n\nnav {\n\t\t-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\t-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\t-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\ttransition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\tbackground-color: #F2F2F0;\n\t\tcolor: #636363;\n\t\tpadding: 1em 3em;\n\t\tbackground-color: #F2F2F0;\n\t\tborder-top-left-radius: 1em;\n\t\tborder-top-right-radius: 1em;\n\t\tcursor: default;\n\t\ttext-align: center;\n}\n@media screen and (max-width: 991px) {\n  nav {\n    padding: 1em;\n  }\n}\n\n.nav>li {\n  vertical-align: middle;\n}\n.nav>li>a {\n  font-size: 17pt;\n  font-weight: 100;\n}\n.nav>li>a.active, .nav>li>a.active:focus, .nav>li>a.active:hover {\n  color: #fff;\n  background-color: #F19B33;\n}\n.nav>li>a:hover {\n  background-color: #ddd;\n}\n\nfooter {\n  margin: 78px 0px;\n  font-weight: 400;\n}\n\nfooter img.footer-logo {\n  margin-bottom: 30px;\n}\n\nfooter .company-info {\n  margin-top: 50px;\n}\n\nfooter .company-info span {\n  display: block;\n  height: 60px;\n  line-height: 60px;\n}\n\nfooter .company-info .icon {\n  display: inline;\n  width: 2em;\n  margin-right: 1em;\n}\n\n.highlight {\n  background-color: #F19B33;\n  color: #fff;\n}\n\n.circle {\n  display: inline-block;\n  width: 2em;\n  height: 2em;\n  text-align: center;\n  border-radius: 50%;\n  font-weight: 700;\n  padding: 0.1em;\n}\n\n.white {\n  background-color: #fff;\n  color: #F19B33;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.btn.outline {\n    background: none;\n    padding: 0.5em 2em;\n}\n.btn-primary.outline {\n    border: 0.1em solid #F19B33;\n    color: #F19B33;\n}\n.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {\n    color: #33a6cc;\n    border-color: #33a6cc;\n}\n.btn-primary.outline:active, .btn-primary.outline.active {\n    border-color: #007299;\n    color: #007299;\n    box-shadow: none;\n}\n\n/***********************\n  CUSTON BTN VALUES\n************************/\n\n.btn:focus, .btn:active:focus, .btn.active:focus {\n    outline: 0 none;\n}\n", ""]);
 
 	// exports
 
@@ -37940,7 +37940,7 @@
 	      location: "목동/송도"
 	    }],
 	    time: "오전 10:00 ~ 오후 1:00(3시간)",
-	    persons: "각 캠프 당 선착순 16명(소수 정예)",
+	    number: 16,
 	    needed: "노트북",
 	    price: "360,000원"
 	  },
@@ -38028,6 +38028,10 @@
 
 	var _Curri2 = _interopRequireDefault(_Curri);
 
+	var _ApplyForm = __webpack_require__(354);
+
+	var _ApplyForm2 = _interopRequireDefault(_ApplyForm);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -38036,7 +38040,7 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	__webpack_require__(354);
+	__webpack_require__(360);
 
 	var Poster = function (_React$Component) {
 	  _inherits(Poster, _React$Component);
@@ -38057,7 +38061,8 @@
 	        _react2.default.createElement('hr', null),
 	        _react2.default.createElement(_Eduinfo2.default, { eduinfo: this.props.posterData.eduinfo }),
 	        _react2.default.createElement('hr', null),
-	        _react2.default.createElement(_Curri2.default, { curri: this.props.posterData.curri })
+	        _react2.default.createElement(_Curri2.default, { curri: this.props.posterData.curri }),
+	        _react2.default.createElement(_ApplyForm2.default, null)
 	      );
 	    }
 	  }]);
@@ -38160,7 +38165,7 @@
 	          { className: 'row' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'col-md-5' },
+	            { className: 'col-md-5 info-left' },
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'camp-title' },
@@ -38170,6 +38175,11 @@
 	              'p',
 	              { className: 'camp-subtitle' },
 	              this.props.info.subtitle
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              this.props.info.desc
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -38290,7 +38300,14 @@
 	              _react2.default.createElement(
 	                'dd',
 	                { className: 'col-sm-10' },
-	                this.props.info.persons
+	                '각 캠프 당 선착순 ',
+	                _react2.default.createElement(
+	                  'b',
+	                  null,
+	                  this.props.info.number,
+	                  '명'
+	                ),
+	                ' (소수 정예)'
 	              ),
 	              _react2.default.createElement(
 	                'dt',
@@ -38471,7 +38488,7 @@
 
 
 	// module
-	exports.push([module.id, "#camp-info .camp-title {\n  font-size: 3em;\n  font-weight: 700;\n}\n#camp-info .camp-subtitle {\n  font-size: 2em;\n}\n#camp-info .camp-info {\n}\n#camp-info .camp-info span {\n  display: inline-block;\n}\n#camp-info .camp-info dt {\n  font-weight: 400;\n  margin-top: 1em;\n}\n#camp-info .camp-info dd {\n  margin-top: 1em;\n}\n#camp-info .camp-info li {\n  margin-bottom: 1em;\n}\n@media screen and (max-width: 767px) {\n  #camp-info .camp-info dt {\n    font-size: 1.2em;\n  }\n  #camp-info .camp-info dd {\n    margin-top: 0.3em;\n  }\n}\n\n#camp-info .camp-info .camp-no {\n  width: 3em;\n  font-weight: 700;\n}\n@media screen and (max-width: 375px) {\n  #camp-info .camp-info .camp-no {\n    display: block;\n  }\n}\n\n#camp-info .camp-info .camp-date {\n  width: 4em;\n}\n#camp-info .camp-info .camp-day {\n  font-weight: 700;\n  width: 2em;\n}\n#camp-info .camp-info .camp-wave {\n  width: 1em;\n}\n#camp-info .camp-info .camp-loc {\n  position: relative;\n}\n#camp-info .camp-info .camp-loc::before {\n  content: '';\n  position: absolute;\n  top: 90%;\n  width: 100%;\n  height: 0.25em;\n  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background-size: 0.5em 0.5em;\n  background-repeat: repeat-x, repeat-x;\n}\n#camp-info .camp-info .loc-name {\n  width: 230px;\n}\n#camp-info .camp-info .loc-addr {\n  width: 250px;\n  font-size: 11pt;\n}\n\n#camp-info .discount {\n  padding: 1em 0;\n  margin: 4em 0;\n}\n#camp-info .discount .title {\n  font-weight: 700;\n  font-size: 1.2em;\n  text-align: left;\n}\n#camp-info .discount img {\n  height: 6em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .discount img {\n    margin-top: 2em;\n  }\n}\n", ""]);
+	exports.push([module.id, "#camp-info .info-left {\n  padding-right: 3em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .info-left {\n    padding-right: 15px;\n  }\n}\n\n#camp-info .camp-title {\n  font-size: 3em;\n  font-weight: 700;\n}\n#camp-info .camp-subtitle {\n  font-size: 2em;\n  margin-bottom: 2em;\n}\n#camp-info .camp-info {\n}\n#camp-info .camp-info span {\n  display: inline-block;\n}\n#camp-info .camp-info dt {\n  font-weight: 400;\n  margin-top: 1em;\n}\n#camp-info .camp-info dd {\n  margin-top: 1em;\n}\n#camp-info .camp-info li {\n  margin-bottom: 1em;\n}\n@media screen and (max-width: 767px) {\n  #camp-info .camp-info dt {\n    font-size: 1.2em;\n  }\n  #camp-info .camp-info dd {\n    margin-top: 0.3em;\n  }\n}\n\n#camp-info .camp-info .camp-no {\n  width: 3em;\n  font-weight: 700;\n}\n@media screen and (max-width: 375px) {\n  #camp-info .camp-info .camp-no {\n    display: block;\n  }\n}\n\n#camp-info .camp-info .camp-date {\n  width: 4em;\n}\n#camp-info .camp-info .camp-day {\n  font-weight: 700;\n  width: 2em;\n}\n#camp-info .camp-info .camp-wave {\n  width: 1em;\n}\n#camp-info .camp-info .camp-loc {\n  position: relative;\n}\n#camp-info .camp-info .camp-loc::before {\n  content: '';\n  position: absolute;\n  top: 90%;\n  width: 100%;\n  height: 0.25em;\n  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background-size: 0.5em 0.5em;\n  background-repeat: repeat-x, repeat-x;\n}\n#camp-info .camp-info .loc-name {\n  width: 230px;\n}\n#camp-info .camp-info .loc-addr {\n  width: 250px;\n  font-size: 11pt;\n}\n\n#camp-info .discount {\n  padding: 1em 0;\n  margin: 4em 0;\n}\n#camp-info .discount .title {\n  font-weight: 700;\n  font-size: 1.2em;\n  text-align: left;\n}\n#camp-info .discount img {\n  height: 6em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .discount img {\n    margin-top: 2em;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -38514,13 +38531,19 @@
 	      _this.post = _react2.default.createElement(
 	        'div',
 	        { className: 'col-md-6 youtube-wrapper' },
-	        _react2.default.createElement('iframe', { src: 'https://www.youtube.com/embed/43ps5GV_rJk', frameborder: '0', allowfullscreen: true, className: 'center-block' })
+	        _react2.default.createElement('img', { src: _this.props.eduinfo.image, className: 'center-block' })
+	      );
+	    } else if (_this.props.eduinfo.youtube.length > 0) {
+	      _this.post = _react2.default.createElement(
+	        'div',
+	        { className: 'col-md-6 youtube-wrapper' },
+	        _react2.default.createElement('iframe', { src: _this.props.eduinfo.youtube, frameborder: '0', allowfullscreen: true, className: 'center-block' })
 	      );
 	    } else {
 	      _this.post = _react2.default.createElement(
 	        'div',
 	        { className: 'col-md-6 youtube-wrapper' },
-	        _react2.default.createElement('iframe', { src: 'https://www.youtube.com/embed/43ps5GV_rJk', frameborder: '0', allowfullscreen: true, className: 'center-block' })
+	        _react2.default.createElement('iframe', { src: _this.props.eduinfo.vimeo, frameborder: '0', webkitallowfullscreen: true, mozallowfullscreen: true, allowfullscreen: true })
 	      );
 	    }
 	    return _this;
@@ -38654,7 +38677,7 @@
 
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'row' },
+	        { className: 'row curri-row' },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'col-md-2 curri-day' },
@@ -38729,7 +38752,7 @@
 
 
 	// module
-	exports.push([module.id, "#curri .curri-day>span {\n  padding-top: 0.8em;\n  font-size: 2em;\n  width: 3.5em;\n  height: 3.5em;\n}\n#curri .curri-contents {\n  padding-top: 1.5em;\n}\n#curri .curri-title {\n  font-weight: 700;\n}\n#curri .curri-desc {\n\n}\n", ""]);
+	exports.push([module.id, "#curri {\n  padding-top: 3em;\n  padding-bottom: 3em;\n}\n\n#curri .curri-row {\n  margin-top: 3em;\n}\n#curri .curri-day>span {\n  padding-top: 0.8em;\n  font-size: 2em;\n  width: 3.5em;\n  height: 3.5em;\n}\n#curri .curri-contents {\n  padding-top: 1.5em;\n}\n#curri .curri-title {\n  font-weight: 700;\n}\n#curri .curri-desc {\n\n}\n", ""]);
 
 	// exports
 
@@ -38738,10 +38761,128 @@
 /* 354 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _ApplyButton = __webpack_require__(355);
+
+	var _ApplyButton2 = _interopRequireDefault(_ApplyButton);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	__webpack_require__(358);
+
+	var ApplyForm = function (_React$Component) {
+		_inherits(ApplyForm, _React$Component);
+
+		function ApplyForm(props) {
+			_classCallCheck(this, ApplyForm);
+
+			return _possibleConstructorReturn(this, Object.getPrototypeOf(ApplyForm).call(this, props));
+		}
+
+		_createClass(ApplyForm, [{
+			key: 'render',
+			value: function render() {
+				return _react2.default.createElement(
+					'form',
+					{ id: 'apply' },
+					_react2.default.createElement(
+						_ApplyButton2.default,
+						null,
+						'신청하기'
+					)
+				);
+			}
+		}]);
+
+		return ApplyForm;
+	}(_react2.default.Component);
+
+	exports.default = ApplyForm;
+
+/***/ },
+/* 355 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	__webpack_require__(356);
+
+	var ApplyButton = function (_React$Component) {
+		_inherits(ApplyButton, _React$Component);
+
+		function ApplyButton(props) {
+			_classCallCheck(this, ApplyButton);
+
+			var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(ApplyButton).call(this, props));
+
+			_this.handleClick = _this.handleClick.bind(_this);
+			return _this;
+		}
+
+		_createClass(ApplyButton, [{
+			key: 'handleClick',
+			value: function handleClick() {
+				window.open("http://goo.gl/forms/dl2jXLbToqvDGZJv2");
+			}
+		}, {
+			key: 'render',
+			value: function render() {
+				return _react2.default.createElement(
+					'button',
+					{ type: 'button', className: 'btn btn-primary btn-lg outline apply', onClick: this.handleClick },
+					'신청하기'
+				);
+			}
+		}]);
+
+		return ApplyButton;
+	}(_react2.default.Component);
+
+	exports.default = ApplyButton;
+
+/***/ },
+/* 356 */
+/***/ function(module, exports, __webpack_require__) {
+
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(355);
+	var content = __webpack_require__(357);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(14)(content, {});
@@ -38750,8 +38891,8 @@
 	if(true) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept(355, function() {
-				var newContent = __webpack_require__(355);
+			module.hot.accept(357, function() {
+				var newContent = __webpack_require__(357);
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -38761,7 +38902,87 @@
 	}
 
 /***/ },
-/* 355 */
+/* 357 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(8)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "button.apply {\n  font-size: 2em;\n  line-height: 1.33;\n  border-radius: 6px;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 358 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(359);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(14)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(true) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept(359, function() {
+				var newContent = __webpack_require__(359);
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 359 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(8)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "#apply {\n  text-align: center;\n  padding-top: 2em;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 360 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(361);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(14)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(true) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept(361, function() {
+				var newContent = __webpack_require__(361);
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 361 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(8)();
@@ -38775,134 +38996,928 @@
 
 
 /***/ },
-/* 356 */
+/* 362 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
-	var React = __webpack_require__(104);
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
 
-	var Scratch = function Scratch(props) {
-	  return React.createElement(
-	    "section",
-	    null,
-	    React.createElement(
-	      "div",
-	      { className: "row" },
-	      React.createElement(
-	        "div",
-	        { className: "col-md-12" },
-	        React.createElement("img", { src: "img/scratch.png", alt: "", className: "img-responsive poster" })
-	      )
-	    )
-	  );
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _Poster = __webpack_require__(344);
+
+	var _Poster2 = _interopRequireDefault(_Poster);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var data = {
+	  info: {
+	    title: "Scratch Starter",
+	    subtitle: "Camp 2",
+	    desc: "스크래치는 MIT 미디어 연구소에서 만든 어린이 교육용 프로그래밍 언어입니다. 일반적인 프로그래밍 언어에서 프로그램을 만들려면 아이들이 직접 일일이 코드를 타이핑해야 하지만, 스크래치에서는 명령이 블록으로 만들어져 있어서 마우스를 이용하여 쉽게 프로그램을 만들 수 있습니다. 특히 게임이나 애니메이션과 같은 것을 쉽게 만들 수 있도록 고안되어 있기 때문에 어렵지 않게 프로그래밍 기법들을 익힐 수 있습니다.",
+	    target: "코딩을 처음 접하는 초등학교 4~6학년 친구들",
+	    dates: [{
+	      no: "1차",
+	      startDate: "8월1일",
+	      startDay: "월",
+	      endDate: "8월3일",
+	      endDay: "수",
+	      location: "강남"
+	    }, {
+	      no: "2차",
+	      startDate: "8월8일",
+	      startDay: "월",
+	      endDate: "8월10일",
+	      endDay: "수",
+	      location: "강남/목동"
+	    }, {
+	      no: "3차",
+	      startDate: "8월15일",
+	      startDay: "월",
+	      endDate: "8월17일",
+	      endDay: "수",
+	      location: "목동/송도"
+	    }],
+	    time: "오전 10:00 ~ 오후 1:00(3시간)",
+	    number: 16,
+	    needed: "노트북",
+	    price: "360,000원"
+	  },
+	  eduinfo: {
+	    desc: "연주하고 노래하는 밴드 만들기, 우주선 조종하기, 대화하는 로봇 만들기 등 아이들이 흥미를 가지고 열성적으로 참여할 수 있는 콘텐츠를 통해 전반적인 프로그래밍 기법을 배우고 논리적 사고력과 창의력을 기릅니다.",
+	    image: "",
+	    youtube: "",
+	    vimeo: "https://player.vimeo.com/video/65583694"
+	  },
+	  curri: [{
+	    day: "Day 1",
+	    contents: [{
+	      title: "스크래치 소개",
+	      desc: "스크래치를 소개하고, 수업 준비를 하며 친해집니다."
+	    }, {
+	      title: "노래하고 연주하는 밴드 만들기",
+	      desc: "프로젝트에 음악을 넣고, 모양과 배경을 변경하는 방법과 코드 블록으로 프로그램 하는 방법을 배웁니다."
+	    }]
+	  }, {
+	    day: "Day 2",
+	    contents: [{
+	      title: "우주선 조종하기",
+	      desc: "코드 블록을 합쳐 간단한 애니메이션을 만드는 방법을 배우고, 반복하기(루프)에 대해 배웁니다."
+	    }, {
+	      title: "유령 잡기 게임",
+	      desc: "변수를 배우고 프로그램의 데이터를 저장하는 방법을 배웁니다."
+	    }]
+	  }, {
+	    day: "Day 3",
+	    contents: [{
+	      title: "대화하는 로봇",
+	      desc: "프로젝트에 텍스트를 넣는 방법을 배우고, 조건문에 대해 새롭게 배웁니다."
+	    }, {
+	      title: "나만의 그림판",
+	      desc: "스프라이트 사이에서 정보(메시지)를 방송(브로드캐스트)하는 방법을 배웁니다."
+	    }]
+	  }, {
+	    day: "Day 4",
+	    contents: [{
+	      title: "보트 레이싱",
+	      desc: "배경을 관찰하는 방법을 배웁니다."
+	    }, {
+	      title: "자유 프로젝트",
+	      desc: "지금까지 배운 내용들을 활용하여 아이들 스스로 만들고 싶은 프로그램을 만듭니다."
+	    }]
+	  }]
 	};
 
-	module.exports = Scratch;
+	var Scratch = function (_React$Component) {
+	  _inherits(Scratch, _React$Component);
+
+	  function Scratch(props) {
+	    _classCallCheck(this, Scratch);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Scratch).call(this, props));
+	  }
+
+	  _createClass(Scratch, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_Poster2.default, { posterData: data });
+	    }
+	  }]);
+
+	  return Scratch;
+	}(_react2.default.Component);
+
+	exports.default = Scratch;
 
 /***/ },
-/* 357 */
+/* 363 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
-	var React = __webpack_require__(104);
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
 
-	var Web = function Web(props) {
-	  return React.createElement(
-	    "section",
-	    null,
-	    React.createElement(
-	      "div",
-	      { className: "row" },
-	      React.createElement(
-	        "div",
-	        { className: "col-md-12" },
-	        React.createElement("img", { src: "img/web.png", alt: "", className: "img-responsive poster" })
-	      )
-	    )
-	  );
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _Poster = __webpack_require__(344);
+
+	var _Poster2 = _interopRequireDefault(_Poster);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var data = {
+	  info: {
+	    title: "Web Master",
+	    subtitle: "Camp 3",
+	    desc: "웹은 컴퓨팅 분야에서 굉장히 중요한 위치에 있습니다. 특히 최근에는 웹이 모바일이나 데스크탑 에플리케이션 개발에서 사용되고 있기 때문에 가장 주목 받고 있는 분야이기도 합니다. 그런 웹의 최소 단위인 웹 페이지를 만드는 언어가 바로 HTML과 CSS입니다. HTML은 웹페이지의 구조를 만드는 언어이고, CSS는 HTML을 보기 좋게 디자인하는 역할을 하는 언어입니다. HTML이 웹페이지의 '뼈'라면 CSS는 '살'이라고 할 수 있습니다. 즉, HTML과 CSS를 배우면 자신이 표현하고 싶은 정보를 보기 좋게 웹 페이지 형태로 만들어 낼 수 있습니다.",
+	    target: "코딩을 처음 접하는 초등학교 4~6학년 친구들",
+	    dates: [{
+	      no: "1차",
+	      startDate: "8월1일",
+	      startDay: "월",
+	      endDate: "8월3일",
+	      endDay: "수",
+	      location: "강남"
+	    }, {
+	      no: "2차",
+	      startDate: "8월8일",
+	      startDay: "월",
+	      endDate: "8월10일",
+	      endDay: "수",
+	      location: "강남/목동"
+	    }, {
+	      no: "3차",
+	      startDate: "8월15일",
+	      startDay: "월",
+	      endDate: "8월17일",
+	      endDay: "수",
+	      location: "목동/송도"
+	    }],
+	    time: "오전 10:00 ~ 오후 1:00(3시간)",
+	    number: 16,
+	    needed: "노트북",
+	    price: "360,000원"
+	  },
+	  eduinfo: {
+	    desc: "생일 축하 카드 만들기, 로봇 조립하기 등 아이들이 흥미를 가지고 열성적으로 참여할 수 있는 콘텐츠를 통해 HTML과 CSS를 배워 스스로 멋진 웹 페이지를 만들 수 있습니다.",
+	    image: "img/sample1.png",
+	    youtube: "",
+	    vimeo: ""
+	  },
+	  curri: [{
+	    day: "Day 1",
+	    contents: [{
+	      title: "웹 소개",
+	      desc: "웹을 소개하고, 수업 준비를 하며 친해집니다."
+	    }, {
+	      title: "생일 축하 카드",
+	      desc: "HTML 태그와 CSS 속성에 대해 배웁니다."
+	    }]
+	  }, {
+	    day: "Day 2",
+	    contents: [{
+	      title: "이야기 만들기",
+	      desc: "직접 HTML을 작성하여 만화책을 만듭니다."
+	    }, {
+	      title: "로봇을 찾습니다!",
+	      desc: "직접 CSS를 작성하여 포스터를 만듭니다."
+	    }]
+	  }, {
+	    day: "Day 3",
+	    contents: [{
+	      title: "나만의 레시피",
+	      desc: "HTML 리스트와 CSS 색깔에 대해 배워 자신만의 레시피 페이지를 만듭니다."
+	    }, {
+	      title: "수수꼐끼 만들기",
+	      desc: "CSS class 에 대해 배워 글씨와 배경을 자유롭게 꾸밉니다."
+	    }]
+	  }, {
+	    day: "Day 4",
+	    contents: [{
+	      title: "포트폴리오 만들기",
+	      desc: "HTML 하이퍼링크에 대해 배워 지금까지 만든 프로젝트들을 연결합니다."
+	    }, {
+	      title: "자유 프로젝트",
+	      desc: "지금까지 배운 내용들을 활용하여 아이들 스스로 만들고 싶은 웹 페이지를 만듭니다."
+	    }]
+	  }]
 	};
 
-	module.exports = Web;
+	var Web = function (_React$Component) {
+	  _inherits(Web, _React$Component);
+
+	  function Web(props) {
+	    _classCallCheck(this, Web);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Web).call(this, props));
+	  }
+
+	  _createClass(Web, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_Poster2.default, { posterData: data });
+	    }
+	  }]);
+
+	  return Web;
+	}(_react2.default.Component);
+
+	exports.default = Web;
 
 /***/ },
-/* 358 */
+/* 364 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
-	var React = __webpack_require__(104);
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
 
-	var Python = function Python(props) {
-	  return React.createElement(
-	    "section",
-	    null,
-	    React.createElement(
-	      "div",
-	      { className: "row" },
-	      React.createElement(
-	        "div",
-	        { className: "col-md-12" },
-	        React.createElement("img", { src: "img/python.png", alt: "", className: "img-responsive poster" })
-	      )
-	    )
-	  );
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _Poster = __webpack_require__(344);
+
+	var _Poster2 = _interopRequireDefault(_Poster);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var data = {
+	  info: {
+	    title: "파이썬 Explore",
+	    subtitle: "Camp 4",
+	    desc: "파이썬은 아주 인기있는 프로그래밍 언어로, 파이썬을 이용하면 웹사이트, 게임, 과학용 소프트웨어, 그래픽 소프트웨어 등을 만들 수 있습니다. 그리고 같은 역할을 하는 다른 언어들에 비해 훨씬 쉽고 간결하여 처음 프로그래밍을 접하는 아이들이 배우기 좋은 언어이기도 합니다.",
+	    target: "초등학교 6학년 ~ 중학교 2학년 친구들",
+	    dates: [{
+	      no: "1차",
+	      startDate: "8월1일",
+	      startDay: "월",
+	      endDate: "8월3일",
+	      endDay: "수",
+	      location: "강남"
+	    }, {
+	      no: "2차",
+	      startDate: "8월8일",
+	      startDay: "월",
+	      endDate: "8월10일",
+	      endDay: "수",
+	      location: "강남/목동"
+	    }, {
+	      no: "3차",
+	      startDate: "8월15일",
+	      startDay: "월",
+	      endDate: "8월17일",
+	      endDay: "수",
+	      location: "목동/송도"
+	    }],
+	    time: "오전 10:00 ~ 오후 1:00(3시간)",
+	    number: 16,
+	    needed: "노트북",
+	    price: "360,000원"
+	  },
+	  eduinfo: {
+	    desc: "수수께끼 만들고 서로 풀어보기, 숫자 맞추기 게임 등 아이들이 흥미를 가지고 열성적으로 참여할 수 있는 콘텐츠를 통해 파이썬 언어를 배우고 프로그래밍 기법을 배워 웹, 게임을 비롯한 어떤한 프로그램도 만들 수 있는 기본 소양을 갖출 수 있습니다.",
+	    image: "img/sample1.png",
+	    youtube: "",
+	    vimeo: ""
+	  },
+	  curri: [{
+	    day: "Day 1",
+	    contents: [{
+	      title: "파이썬 소개",
+	      desc: "파이썬을 소개하고, 수업 준비를 하며 친해집니다."
+	    }, {
+	      title: "텍스트 아트",
+	      desc: "파이썬 프로그램 사용법을 배워 텍스트를 스크린에 프린트 하는 방법을 배웁니다."
+	    }]
+	  }, {
+	    day: "Day 2",
+	    contents: [{
+	      title: "미래의 나",
+	      desc: "변수를 사용하여 계산하는 방법을 배우고, 이를 통해 미래의 내가 몇 살이 되는지 알려주는 프로그램을 만듭니다."
+	    }, {
+	      title: "수수께끼",
+	      desc: "조건문을 배우고, 이를 통해 수수께끼를 만들어 친구들끼리 풀어봅니다."
+	    }]
+	  }, {
+	    day: "Day 3",
+	    contents: [{
+	      title: "거북이의 그림 그리기",
+	      desc: "'for' 반복문을 배웁니다. 파이썬의 Turtle(거북이) 모듈을 사용하여 그림을 그려보고, 반복문을 사용하여 더 효율적으로 그려 봅니다."
+	    }, {
+	      title: "숫자 맞추기 게임",
+	      desc: "'while' 반복문을 배웁니다. 또한 난수를 만드는 방법을 배워 숫자 맞추기 게임을 만듭니다."
+	    }]
+	  }, {
+	    day: "Day 4",
+	    contents: [{
+	      title: "칭찬 로봇",
+	      desc: "리스트에 대해 배우고, 이를 통해 리스트에서 무작위로 칭찬을 선택하는 로봇을 만듭니다."
+	    }, {
+	      title: "자유 프로젝트",
+	      desc: "지금까지 배운 내용들을 활용하여 아이들 스스로 만들고 싶은 프로그램을 만듭니다."
+	    }]
+	  }]
 	};
 
-	module.exports = Python;
+	var Python = function (_React$Component) {
+	  _inherits(Python, _React$Component);
+
+	  function Python(props) {
+	    _classCallCheck(this, Python);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Python).call(this, props));
+	  }
+
+	  _createClass(Python, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_Poster2.default, { posterData: data });
+	    }
+	  }]);
+
+	  return Python;
+	}(_react2.default.Component);
+
+	exports.default = Python;
 
 /***/ },
-/* 359 */
+/* 365 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
-	var React = __webpack_require__(104);
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
 
-	var Shorttime = function Shorttime(props) {
-	  return React.createElement(
-	    "section",
-	    null,
-	    React.createElement(
-	      "div",
-	      { className: "row" },
-	      React.createElement(
-	        "div",
-	        { className: "col-md-12" },
-	        React.createElement("img", { src: "img/shorttime.png", alt: "", className: "img-responsive poster" })
-	      )
-	    )
-	  );
-	};
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	module.exports = Shorttime;
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _PosterShort = __webpack_require__(366);
+
+	var _PosterShort2 = _interopRequireDefault(_PosterShort);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var data = [{
+	  title: "Web Dev",
+	  subtitle: "단기과정 1",
+	  target: "나만의 웹사이트를 만들고 싶은",
+	  targetBold: "중1 이상 학생들",
+	  time: "오전 10:00 ~ 오후 1:00(3시간)",
+	  number: 8,
+	  needed: "노트북"
+	}, {
+	  title: "파이썬",
+	  subtitle: "단기과정 2",
+	  target: "파이썬을 마스터하고 싶은 초6 ~ 중2",
+	  time: "오전 10:00 ~ 오후 1:00(3시간)",
+	  number: 8,
+	  needed: "노트북"
+	}];
+
+	var Shorttime = function (_React$Component) {
+	  _inherits(Shorttime, _React$Component);
+
+	  function Shorttime(props) {
+	    _classCallCheck(this, Shorttime);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Shorttime).call(this, props));
+	  }
+
+	  _createClass(Shorttime, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_PosterShort2.default, { posterData: data });
+	    }
+	  }]);
+
+	  return Shorttime;
+	}(_react2.default.Component);
+
+	exports.default = Shorttime;
 
 /***/ },
-/* 360 */
+/* 366 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
-	var React = __webpack_require__(104);
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
 
-	var Oneday = function Oneday(props) {
-	  return React.createElement(
-	    "section",
-	    null,
-	    React.createElement(
-	      "div",
-	      { className: "row" },
-	      React.createElement(
-	        "div",
-	        { className: "col-md-12" },
-	        React.createElement("img", { src: "img/oneday.png", alt: "", className: "img-responsive poster" })
-	      )
-	    )
-	  );
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _CampInfoShort = __webpack_require__(367);
+
+	var _CampInfoShort2 = _interopRequireDefault(_CampInfoShort);
+
+	var _ApplyForm = __webpack_require__(354);
+
+	var _ApplyForm2 = _interopRequireDefault(_ApplyForm);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	__webpack_require__(370);
+
+	var PosterShort = function (_React$Component) {
+	  _inherits(PosterShort, _React$Component);
+
+	  function PosterShort(props) {
+	    _classCallCheck(this, PosterShort);
+
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(PosterShort).call(this, props));
+
+	    _this.posters = _this.props.posterData.map(function (poster) {
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(_CampInfoShort2.default, { info: poster }),
+	        _react2.default.createElement(_ApplyForm2.default, null),
+	        _react2.default.createElement('hr', null)
+	      );
+	    });
+	    return _this;
+	  }
+
+	  _createClass(PosterShort, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { id: 'poster' },
+	        this.posters
+	      );
+	    }
+	  }]);
+
+	  return PosterShort;
+	}(_react2.default.Component);
+
+	exports.default = PosterShort;
+
+/***/ },
+/* 367 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	__webpack_require__(368);
+
+	var CampInfoShort = function (_React$Component) {
+	  _inherits(CampInfoShort, _React$Component);
+
+	  function CampInfoShort(props) {
+	    _classCallCheck(this, CampInfoShort);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(CampInfoShort).call(this, props));
+	  }
+
+	  _createClass(CampInfoShort, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'section',
+	        { id: 'camp-info' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'row' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'col-md-5 info-left' },
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'camp-title' },
+	              this.props.info.title
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'camp-subtitle' },
+	              this.props.info.subtitle
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              this.props.info.desc
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'dl',
+	            { className: 'col-md-7 camp-info' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'row' },
+	              _react2.default.createElement(
+	                'dt',
+	                { className: 'col-sm-2' },
+	                '대상'
+	              ),
+	              _react2.default.createElement(
+	                'dd',
+	                { className: 'col-sm-10' },
+	                this.props.info.target,
+	                ' ',
+	                _react2.default.createElement(
+	                  'b',
+	                  null,
+	                  this.props.info.targetBold
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'dt',
+	                { className: 'col-sm-2' },
+	                '기간'
+	              ),
+	              _react2.default.createElement(
+	                'dd',
+	                { className: 'col-sm-10' },
+	                '6주 과정, 총 ',
+	                _react2.default.createElement(
+	                  'b',
+	                  null,
+	                  '12회'
+	                ),
+	                ' 수업'
+	              ),
+	              _react2.default.createElement(
+	                'dt',
+	                { className: 'col-sm-2' },
+	                '일정'
+	              ),
+	              _react2.default.createElement(
+	                'dd',
+	                { className: 'col-sm-10' },
+	                '8월 6일 ',
+	                _react2.default.createElement(
+	                  'b',
+	                  null,
+	                  '토'
+	                ),
+	                ' ~ 9월 11일 ',
+	                _react2.default.createElement(
+	                  'b',
+	                  null,
+	                  '일, 주 2회'
+	                ),
+	                ' 토/일'
+	              ),
+	              _react2.default.createElement(
+	                'dt',
+	                { className: 'col-sm-2' },
+	                '시간'
+	              ),
+	              _react2.default.createElement(
+	                'dd',
+	                { className: 'col-sm-10' },
+	                this.props.info.time
+	              ),
+	              _react2.default.createElement(
+	                'dt',
+	                { className: 'col-sm-2' },
+	                '인원'
+	              ),
+	              _react2.default.createElement(
+	                'dd',
+	                { className: 'col-sm-10' },
+	                '각 캠프 당 선착순 ',
+	                _react2.default.createElement(
+	                  'b',
+	                  null,
+	                  this.props.info.number,
+	                  '명'
+	                ),
+	                ' (소수 정예)'
+	              ),
+	              _react2.default.createElement(
+	                'dt',
+	                { className: 'col-sm-2' },
+	                '준비물'
+	              ),
+	              _react2.default.createElement(
+	                'dd',
+	                { className: 'col-sm-10' },
+	                this.props.info.needed
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'text-right' },
+	                '"비용은 별도 문의해주시기 바랍니다."'
+	              ),
+	              _react2.default.createElement('img', { src: this.props.info.image, className: 'img-responsive' })
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return CampInfoShort;
+	}(_react2.default.Component);
+
+	exports.default = CampInfoShort;
+
+/***/ },
+/* 368 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(369);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(14)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(true) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept(369, function() {
+				var newContent = __webpack_require__(369);
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 369 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(8)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "#camp-info .info-left {\n  padding-right: 3em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .info-left {\n    padding-right: 15px;\n  }\n}\n\n#camp-info .camp-title {\n  font-size: 3em;\n  font-weight: 700;\n}\n#camp-info .camp-subtitle {\n  font-size: 2em;\n  margin-bottom: 2em;\n}\n#camp-info .camp-info {\n}\n#camp-info .camp-info span {\n  display: inline-block;\n}\n#camp-info .camp-info dt {\n  font-weight: 400;\n  margin-top: 1em;\n}\n#camp-info .camp-info dd {\n  margin-top: 1em;\n}\n#camp-info .camp-info li {\n  margin-bottom: 1em;\n}\n@media screen and (max-width: 767px) {\n  #camp-info .camp-info dt {\n    font-size: 1.2em;\n  }\n  #camp-info .camp-info dd {\n    margin-top: 0.3em;\n  }\n}\n\n#camp-info .camp-info .camp-no {\n  width: 3em;\n  font-weight: 700;\n}\n@media screen and (max-width: 375px) {\n  #camp-info .camp-info .camp-no {\n    display: block;\n  }\n}\n\n#camp-info .camp-info .camp-date {\n  width: 4em;\n}\n#camp-info .camp-info .camp-day {\n  font-weight: 700;\n  width: 2em;\n}\n#camp-info .camp-info .camp-wave {\n  width: 1em;\n}\n#camp-info .camp-info .camp-loc {\n  position: relative;\n}\n#camp-info .camp-info .camp-loc::before {\n  content: '';\n  position: absolute;\n  top: 90%;\n  width: 100%;\n  height: 0.25em;\n  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background-size: 0.5em 0.5em;\n  background-repeat: repeat-x, repeat-x;\n}\n#camp-info .camp-info .loc-name {\n  width: 230px;\n}\n#camp-info .camp-info .loc-addr {\n  width: 250px;\n  font-size: 11pt;\n}\n\n#camp-info .discount {\n  padding: 1em 0;\n  margin: 4em 0;\n}\n#camp-info .discount .title {\n  font-weight: 700;\n  font-size: 1.2em;\n  text-align: left;\n}\n#camp-info .discount img {\n  height: 6em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .discount img {\n    margin-top: 2em;\n  }\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 370 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(371);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(14)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(true) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept(371, function() {
+				var newContent = __webpack_require__(371);
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 371 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(8)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "#poster {\n  padding: 4em 0;\n  background-color: #fff;\n  border-bottom-left-radius: 1em;\n  border-bottom-right-radius: 1em;\n}\n\n#poster hr {\n  border-top: 1px solid #BEBFC0;\n}\n\nsection {\n  padding: 0 3em;\n}\n@media screen and (max-width: 767px) {\n  section {\n    padding: 1em;\n  }\n}\n\nsection img.poster {\n  width: 100%;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 372 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _PosterImage = __webpack_require__(373);
+
+	var _PosterImage2 = _interopRequireDefault(_PosterImage);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var data = {
+		image: "img/onedaysam.png"
 	};
 
-	module.exports = Oneday;
+	var Oneday = function (_React$Component) {
+		_inherits(Oneday, _React$Component);
+
+		function Oneday(props) {
+			_classCallCheck(this, Oneday);
+
+			return _possibleConstructorReturn(this, Object.getPrototypeOf(Oneday).call(this, props));
+		}
+
+		_createClass(Oneday, [{
+			key: 'render',
+			value: function render() {
+				return _react2.default.createElement(_PosterImage2.default, { posterData: data });
+			}
+		}]);
+
+		return Oneday;
+	}(_react2.default.Component);
+
+	exports.default = Oneday;
+
+/***/ },
+/* 373 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(104);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _ApplyForm = __webpack_require__(354);
+
+	var _ApplyForm2 = _interopRequireDefault(_ApplyForm);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	__webpack_require__(374);
+
+	var PosterImage = function (_React$Component) {
+	  _inherits(PosterImage, _React$Component);
+
+	  function PosterImage(props) {
+	    _classCallCheck(this, PosterImage);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(PosterImage).call(this, props));
+	  }
+
+	  _createClass(PosterImage, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { id: 'poster' },
+	        _react2.default.createElement('img', { src: this.props.posterData.image, className: 'img-responsive center-block' }),
+	        _react2.default.createElement(_ApplyForm2.default, null)
+	      );
+	    }
+	  }]);
+
+	  return PosterImage;
+	}(_react2.default.Component);
+
+	exports.default = PosterImage;
+
+/***/ },
+/* 374 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(375);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(14)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(true) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept(375, function() {
+				var newContent = __webpack_require__(375);
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 375 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(8)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "#poster {\n  padding: 4em 0;\n  background-color: #fff;\n  border-bottom-left-radius: 1em;\n  border-bottom-right-radius: 1em;\n}\n\n#poster hr {\n  border-top: 1px solid #BEBFC0;\n}\n\nsection {\n  padding: 0 3em;\n}\n@media screen and (max-width: 767px) {\n  section {\n    padding: 1em;\n  }\n}\n\nsection img.poster {\n  width: 100%;\n}\n", ""]);
+
+	// exports
+
 
 /***/ }
 /******/ ]);

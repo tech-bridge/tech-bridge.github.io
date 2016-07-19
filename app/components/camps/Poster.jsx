@@ -3,6 +3,7 @@ import React from 'react';
 import CampInfo from './CampInfo.jsx';
 import Eduinfo from './Eduinfo.jsx';
 import Curri from './Curri.jsx';
+import ApplyForm from './ApplyForm.jsx';
 
 require('./Poster.css');
 
@@ -19,6 +20,7 @@ export default class Poster extends React.Component {
         <Eduinfo eduinfo={this.props.posterData.eduinfo}/>
         <hr />
         <Curri curri={this.props.posterData.curri} />
+        <ApplyForm />
       </div>
     );
   }

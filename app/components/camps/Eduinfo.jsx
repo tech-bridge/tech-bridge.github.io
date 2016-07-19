@@ -9,13 +9,19 @@ export default class Eduinfo extends React.Component {
     if (this.props.eduinfo.image.length > 0) {
       this.post = (
         <div className="col-md-6 youtube-wrapper">
-          <iframe src="https://www.youtube.com/embed/43ps5GV_rJk" frameborder="0" allowfullscreen className="center-block"></iframe>
+          <img src={this.props.eduinfo.image} className="center-block"/>
+        </div>
+      );
+    } else if (this.props.eduinfo.youtube.length > 0) {
+      this.post = (
+        <div className="col-md-6 youtube-wrapper">
+          <iframe src={this.props.eduinfo.youtube} frameborder="0" allowfullscreen className="center-block"></iframe>
         </div>
       );
     } else {
       this.post = (
         <div className="col-md-6 youtube-wrapper">
-          <iframe src="https://www.youtube.com/embed/43ps5GV_rJk" frameborder="0" allowfullscreen className="center-block"></iframe>
+          <iframe src={this.props.eduinfo.vimeo} frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
       );
     }

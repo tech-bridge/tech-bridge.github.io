@@ -186,3 +186,29 @@ footer .company-info .icon {
 .text-center {
   text-align: center;
 }
+
+.btn.outline {
+    background: none;
+    padding: 0.5em 2em;
+}
+.btn-primary.outline {
+    border: 0.1em solid #F19B33;
+    color: #F19B33;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #33a6cc;
+    border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
+}
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}

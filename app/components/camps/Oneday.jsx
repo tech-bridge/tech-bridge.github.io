@@ -1,15 +1,19 @@
-var React = require('react');
+import React from 'react';
 
-var Oneday = (props) => {
-  return (
-    <section>
-      <div className="row">
-        <div className="col-md-12">
-          <img src="img/oneday.png" alt="" className="img-responsive poster" />
-        </div>
-      </div>
-    </section>
-  );
+import PosterImage from './PosterImage.jsx';
+
+var data = {
+  image: "img/onedaysam.png"
 }
 
-module.exports = Oneday;
+export default class Oneday extends React.Component {
+	constructor(props) {
+		super(props);
+	}
+
+	render() {
+		return (
+      <PosterImage posterData={data} />
+		);
+	}
+}

@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "75171568102afcbb14b5"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "8a8d1aa3aa0f53f39a42"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -38365,7 +38365,7 @@
 	          { className: 'row discount' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'col-xs-12 highlight text-center discount' },
+	            { className: 'col-xs-12 highlight text-center' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'col-md-1 title' },
@@ -38531,7 +38531,7 @@
 	      _this.post = _react2.default.createElement(
 	        'div',
 	        { className: 'col-md-6 youtube-wrapper' },
-	        _react2.default.createElement('img', { src: _this.props.eduinfo.image, className: 'center-block' })
+	        _react2.default.createElement('img', { src: _this.props.eduinfo.image, className: 'img-responsive center-block' })
 	      );
 	    } else if (_this.props.eduinfo.youtube.length > 0) {
 	      _this.post = _react2.default.createElement(
@@ -38950,7 +38950,7 @@
 
 
 	// module
-	exports.push([module.id, "#apply {\n  text-align: center;\n  padding-top: 2em;\n}\n", ""]);
+	exports.push([module.id, "#apply {\n  text-align: center;\n  padding: 3em 0;\n}\n", ""]);
 
 	// exports
 
@@ -38990,7 +38990,7 @@
 
 
 	// module
-	exports.push([module.id, "#poster {\n  padding: 4em 0;\n  background-color: #fff;\n  border-bottom-left-radius: 1em;\n  border-bottom-right-radius: 1em;\n}\n\n#poster hr {\n  border-top: 1px solid #BEBFC0;\n}\n\nsection {\n  padding: 0 3em;\n}\n@media screen and (max-width: 767px) {\n  section {\n    padding: 1em;\n  }\n}\n\nsection img.poster {\n  width: 100%;\n}\n", ""]);
+	exports.push([module.id, "#poster {\n  padding: 3em 0;\n  background-color: #fff;\n  border-bottom-left-radius: 1em;\n  border-bottom-right-radius: 1em;\n}\n\n#poster hr {\n  border-top: 1px solid #BEBFC0;\n}\n\nsection {\n  padding: 0 3em;\n}\n@media screen and (max-width: 767px) {\n  section {\n    padding: 1em;\n  }\n}\n\nsection img.poster {\n  width: 100%;\n}\n", ""]);
 
 	// exports
 
@@ -39484,18 +39484,17 @@
 	  function PosterShort(props) {
 	    _classCallCheck(this, PosterShort);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(PosterShort).call(this, props));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(PosterShort).call(this, props));
 
-	    _this.posters = _this.props.posterData.map(function (poster) {
-	      return _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(_CampInfoShort2.default, { info: poster }),
-	        _react2.default.createElement(_ApplyForm2.default, null),
-	        _react2.default.createElement('hr', null)
-	      );
-	    });
-	    return _this;
+	    // this.posters = this.props.posterData.map(function(poster) {
+	    //   return (
+	    //     <div>
+	    //       <CampInfoShort info={poster} />
+	    //       <ApplyForm />
+	    //       <hr />
+	    //     </div>
+	    //   );
+	    // });
 	  }
 
 	  _createClass(PosterShort, [{
@@ -39504,7 +39503,11 @@
 	      return _react2.default.createElement(
 	        'div',
 	        { id: 'poster' },
-	        this.posters
+	        _react2.default.createElement(_CampInfoShort2.default, { info: this.props.posterData[0] }),
+	        _react2.default.createElement(_ApplyForm2.default, null),
+	        _react2.default.createElement('hr', null),
+	        _react2.default.createElement(_CampInfoShort2.default, { info: this.props.posterData[1] }),
+	        _react2.default.createElement(_ApplyForm2.default, null)
 	      );
 	    }
 	  }]);

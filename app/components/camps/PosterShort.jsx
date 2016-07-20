@@ -9,21 +9,25 @@ export default class PosterShort extends React.Component {
 	constructor(props) {
 		super(props);
 
-    this.posters = this.props.posterData.map(function(poster) {
-      return (
-        <div>
-          <CampInfoShort info={poster} />
-          <ApplyForm />
-          <hr />
-        </div>
-      );
-    });
+    // this.posters = this.props.posterData.map(function(poster) {
+    //   return (
+    //     <div>
+    //       <CampInfoShort info={poster} />
+    //       <ApplyForm />
+    //       <hr />
+    //     </div>
+    //   );
+    // });
 	}
 
 	render() {
 		return (
       <div id="poster">
-        {this.posters}
+        <CampInfoShort info={this.props.posterData[0]} />
+        <ApplyForm />
+        <hr />
+        <CampInfoShort info={this.props.posterData[1]} />
+        <ApplyForm />
       </div>
     );
   }

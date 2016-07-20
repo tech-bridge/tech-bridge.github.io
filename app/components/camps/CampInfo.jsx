@@ -85,7 +85,7 @@ export default class CampInfo extends React.Component {
           </dl>
         </div>
         <div className="row discount">
-          <div className="col-xs-12 highlight text-center discount">
+          <div className="col-xs-12 highlight text-center">
             <div className="col-md-1 title">
               <span>할인<br />혜택</span>
             </div>

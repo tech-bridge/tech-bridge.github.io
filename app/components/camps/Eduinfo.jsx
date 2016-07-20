@@ -9,7 +9,7 @@ export default class Eduinfo extends React.Component {
     if (this.props.eduinfo.image.length > 0) {
       this.post = (
         <div className="col-md-6 youtube-wrapper">
-          <img src={this.props.eduinfo.image} className="center-block"/>
+          <img src={this.props.eduinfo.image} className="img-responsive center-block"/>
         </div>
       );
     } else if (this.props.eduinfo.youtube.length > 0) {

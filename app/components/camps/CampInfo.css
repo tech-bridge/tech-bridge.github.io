@@ -86,7 +86,7 @@
   margin: 4em 0;
 }
 #camp-info .discount-container {
-  padding-left: 3em;
+  padding: 1em 0 1em 3em;
 }
   @media screen and (max-width: 1600px) {
 

@@ -13,24 +13,24 @@ var data = {
         no: "1차",
         startDate: "8월1일",
         startDay: "월",
-        endDate: "8월3일",
-        endDay: "수",
+        endDate: "8월4일",
+        endDay: "목",
         location: "강남"
       },
       {
         no: "2차",
         startDate: "8월8일",
         startDay: "월",
-        endDate: "8월10일",
-        endDay: "수",
+        endDate: "8월11일",
+        endDay: "목",
         location: "강남/목동"
       },
       {
         no: "3차",
         startDate: "8월15일",
         startDay: "월",
-        endDate: "8월17일",
-        endDay: "수",
+        endDate: "8월18일",
+        endDay: "목",
         location: "목동/송도"
       }
     ],

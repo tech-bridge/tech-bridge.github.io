@@ -85,8 +85,28 @@
   padding: 1em 0;
   margin: 4em 0;
 }
+#camp-info .discount-container {
+  padding-left: 3em;
+}
+  @media screen and (max-width: 1600px) {
+
+    .discount {
+      font-size: 12pt;
+    }
+
+  }
+  @media screen and (max-width: 1200px) {
+
+    .discount {
+      font-size: 11pt;
+    }
+
+  }
+
 #camp-info .discount .title {
-  float: left;
+  position: absolute;
+  top: 1em;
+  left: 1em;
   font-weight: 700;
   font-size: 1.2em;
   text-align: left;

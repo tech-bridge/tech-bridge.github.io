@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "f9fe082a137ed49c1d85"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "c8c96fef70f614aa8538"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -37879,7 +37879,7 @@
 	exports.push([module.id, "@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);", ""]);
 
 	// module
-	exports.push([module.id, ".col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,\n.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,\n.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,\n.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,\n.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,\n.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,\n.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,\n.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,\n.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,\n.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,\n.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,\n.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {\n}\n\nbody {\n    background: #F19B33; /* For browsers that do not support gradients */\n    background: -webkit-linear-gradient(#F59B20, #FDC70F); /* For Safari 5.1 to 6.0 */\n    background: -o-linear-gradient(#F59B20, #FDC70F); /* For Opera 11.1 to 12.0 */\n    background: -moz-linear-gradient(#F59B20, #FDC70F); /* For Firefox 3.6 to 15 */\n    background: linear-gradient(#F59B20, #FDC70F); /* Standard syntax */\n}\n\nbody, input, select, textarea {\n  font-family: 'Noto Sans KR', sans-serif;\n  font-size: 17pt;\n  font-weight: 300;\n  line-height: 1.65;\n}\n\nfooter {\n  font-size: 14pt;\n}\n\n@media (min-width: 1600px) {\n  .container {\n      width: 1570px;\n  }\n}\n\n  @media screen and (max-width: 1600px) {\n\n    body, input, select, textarea, footer {\n      font-size: 14pt;\n    }\n\n  }\n\n  @media screen and (max-width: 1200px) {\n\n    body, input, select, textarea, footer {\n      font-size: 11pt;\n    }\n\n  }\n\n  @media screen and (max-width: 360px) {\n\n    body, input, select, textarea, footer {\n      font-size: 11pt;\n    }\n\n    section {\n      padding: 1em;\n    }\n\n  }\n\n.center-block {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\nheader {\n  margin-top: 120px;\n  color: #FFFFFF;\n}\n\nheader small {\n  color: #FFFFFF;\n  font-weight: 300;\n}\n\nheader p {\n  font-weight: 300;\n}\n\nheader .header-content {\n  margin-top: 105px;\n  margin-bottom: 50px;\n}\n\n.center-block {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\na {\n    color: #000;\n    text-decoration: none;\n}\n\nnav {\n\t\t-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\t-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\t-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\ttransition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\tbackground-color: #F2F2F0;\n\t\tcolor: #636363;\n\t\tpadding: 1em 3em;\n\t\tbackground-color: #F2F2F0;\n\t\tborder-top-left-radius: 1em;\n\t\tborder-top-right-radius: 1em;\n\t\tcursor: default;\n\t\ttext-align: center;\n}\n@media screen and (max-width: 991px) {\n  nav {\n    padding: 1em;\n  }\n}\n\n.nav>li {\n  vertical-align: middle;\n}\n.nav>li>a {\n  font-size: 17pt;\n  font-weight: 100;\n}\n.nav>li>a.active, .nav>li>a.active:focus, .nav>li>a.active:hover {\n  color: #fff;\n  background-color: #F19B33;\n}\n.nav>li>a:hover {\n  background-color: #ddd;\n}\n\nfooter {\n  margin: 78px 0px;\n  font-weight: 400;\n}\n\nfooter img.footer-logo {\n  margin-bottom: 30px;\n}\n\nfooter .company-info {\n  margin-top: 50px;\n}\n\nfooter .company-info span {\n  display: block;\n  height: 60px;\n  line-height: 60px;\n}\n\nfooter .company-info .icon {\n  display: inline;\n  width: 2em;\n  margin-right: 1em;\n}\n\n.highlight {\n  background-color: #F19B33;\n  color: #fff;\n}\n\n.circle {\n  display: inline-block;\n  width: 2em;\n  height: 2em;\n  text-align: center;\n  border-radius: 50%;\n  font-weight: 700;\n  padding: 0.1em;\n}\n\n.white {\n  background-color: #fff;\n  color: #F19B33;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.btn.outline {\n    background: none;\n    padding: 0.5em 2em;\n}\n.btn-primary.outline {\n    border: 0.1em solid #F19B33;\n    color: #F19B33;\n}\n.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {\n    color: #33a6cc;\n    border-color: #33a6cc;\n}\n.btn-primary.outline:active, .btn-primary.outline.active {\n    border-color: #007299;\n    color: #007299;\n    box-shadow: none;\n}\n\n/***********************\n  CUSTON BTN VALUES\n************************/\n\n.btn:focus, .btn:active:focus, .btn.active:focus {\n    outline: 0 none;\n}\n", ""]);
+	exports.push([module.id, ".col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,\n.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,\n.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,\n.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,\n.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,\n.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,\n.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,\n.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,\n.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,\n.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,\n.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,\n.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {\n}\n\nbody {\n    background: #F19B33; /* For browsers that do not support gradients */\n    background: -webkit-linear-gradient(#F59B20, #FDC70F); /* For Safari 5.1 to 6.0 */\n    background: -o-linear-gradient(#F59B20, #FDC70F); /* For Opera 11.1 to 12.0 */\n    background: -moz-linear-gradient(#F59B20, #FDC70F); /* For Firefox 3.6 to 15 */\n    background: linear-gradient(#F59B20, #FDC70F); /* Standard syntax */\n}\n\nbody, input, select, textarea {\n  font-family: 'Noto Sans KR', sans-serif;\n  font-size: 17pt;\n  font-weight: 300;\n  line-height: 1.65;\n}\n\nfooter {\n  font-size: 14pt;\n}\n\n@media (min-width: 1600px) {\n  .container {\n      width: 1570px;\n  }\n}\n\n  @media screen and (max-width: 1600px) {\n\n    body, input, select, textarea, footer {\n      font-size: 14pt;\n    }\n\n  }\n\n  @media screen and (max-width: 1200px) {\n\n    body, input, select, textarea, footer {\n      font-size: 11pt;\n    }\n\n  }\n\n  @media screen and (max-width: 360px) {\n\n    body, input, select, textarea, footer {\n      font-size: 11pt;\n    }\n\n    section {\n      padding: 1em;\n    }\n\n  }\n\n.center-block {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\nheader {\n  margin-top: 120px;\n  color: #FFFFFF;\n}\n\nheader small {\n  color: #FFFFFF;\n  font-weight: 300;\n}\n\nheader p {\n  font-weight: 300;\n}\n\nheader .header-content {\n  margin-top: 105px;\n  margin-bottom: 50px;\n}\n\n.center-block {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\na {\n    color: #000;\n    text-decoration: none;\n}\n\nnav {\n\t\t-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\t-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\t-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\ttransition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;\n\t\tbackground-color: #F2F2F0;\n\t\tcolor: #636363;\n\t\tpadding: 1em 3em;\n\t\tbackground-color: #F2F2F0;\n\t\tborder-top-left-radius: 1em;\n\t\tborder-top-right-radius: 1em;\n\t\tcursor: default;\n\t\ttext-align: center;\n}\n@media screen and (max-width: 991px) {\n  nav {\n    padding: 1em;\n  }\n}\n\n.nav>li {\n  vertical-align: middle;\n}\n.nav>li>a {\n  font-size: 17pt;\n  font-weight: 100;\n}\n.nav>li>a.active, .nav>li>a.active:focus, .nav>li>a.active:hover {\n  color: #fff;\n  background-color: #F19B33;\n}\n.nav>li>a:hover {\n  background-color: #ddd;\n}\n\nfooter {\n  margin: 78px 0px;\n  font-weight: 400;\n}\n\nfooter img.footer-logo {\n  margin-bottom: 30px;\n}\n\nfooter .company-info {\n  margin-top: 50px;\n}\n\nfooter .company-info span {\n  display: block;\n  height: 60px;\n  line-height: 60px;\n}\n\nfooter .company-info .icon {\n  display: inline;\n  width: 2em;\n  margin-right: 1em;\n}\n\n.highlight {\n  background-color: #F19B33;\n  color: #fff;\n}\n\n.circle {\n  display: inline-block;\n  width: 2em;\n  height: 2em;\n  text-align: center;\n  border-radius: 50%;\n  font-weight: 700;\n  padding-top: 0.2em;\n}\n\n.white {\n  background-color: #fff;\n  color: #F19B33;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.btn.outline {\n    background: none;\n    padding: 0.5em 2em;\n}\n.btn-primary.outline {\n    border: 0.1em solid #F19B33;\n    color: #F19B33;\n}\n.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {\n    color: #33a6cc;\n    border-color: #33a6cc;\n}\n.btn-primary.outline:active, .btn-primary.outline.active {\n    border-color: #007299;\n    color: #007299;\n    box-shadow: none;\n}\n\n/***********************\n  CUSTON BTN VALUES\n************************/\n\n.btn:focus, .btn:active:focus, .btn.active:focus {\n    outline: 0 none;\n}\n", ""]);
 
 	// exports
 
@@ -38365,10 +38365,10 @@
 	          { className: 'row discount' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'col-xs-12 highlight text-center' },
+	            { className: 'col-xs-12 highlight text-center discount-container' },
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'col-md-1 title' },
+	              { className: 'title' },
 	              _react2.default.createElement(
 	                'span',
 	                null,
@@ -38422,7 +38422,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'col-md-4' },
+	              { className: 'col-md-5' },
 	              _react2.default.createElement('img', { src: 'img/20off.png', className: 'img-responsive center-block' }),
 	              _react2.default.createElement(
 	                'div',
@@ -38488,7 +38488,7 @@
 
 
 	// module
-	exports.push([module.id, "#camp-info .info-left {\n  padding-right: 3em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .info-left {\n    padding-right: 15px;\n  }\n}\n\n#camp-info .camp-title {\n  font-size: 3em;\n  font-weight: 700;\n}\n#camp-info .camp-subtitle {\n  font-size: 2em;\n  margin-bottom: 2em;\n}\n#camp-info .camp-info {\n}\n#camp-info .camp-info span {\n  display: inline-block;\n}\n#camp-info .camp-info dt {\n  font-weight: 400;\n  margin-top: 1em;\n}\n#camp-info .camp-info dd {\n  margin-top: 1em;\n}\n#camp-info .camp-info li {\n  margin-bottom: 1em;\n}\n@media screen and (max-width: 767px) {\n  #camp-info .camp-info dt {\n    font-size: 1.2em;\n  }\n  #camp-info .camp-info dd {\n    margin-top: 0.3em;\n  }\n}\n\n#camp-info .camp-info .camp-no {\n  width: 3em;\n  font-weight: 700;\n}\n@media screen and (max-width: 375px) {\n  #camp-info .camp-info .camp-no {\n    display: block;\n  }\n}\n\n#camp-info .camp-info .camp-date {\n  width: 4em;\n}\n#camp-info .camp-info .camp-day {\n  font-weight: 700;\n  width: 2em;\n}\n#camp-info .camp-info .camp-wave {\n  width: 1em;\n}\n#camp-info .camp-info .camp-loc {\n  position: relative;\n}\n#camp-info .camp-info .camp-loc::before {\n  content: '';\n  position: absolute;\n  top: 90%;\n  width: 100%;\n  height: 0.25em;\n  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background-size: 0.5em 0.5em;\n  background-repeat: repeat-x, repeat-x;\n}\n#camp-info .camp-info .loc-name {\n  width: 230px;\n}\n#camp-info .camp-info .loc-addr {\n  width: 250px;\n  font-size: 11pt;\n}\n\n#camp-info .discount {\n  padding: 1em 0;\n  margin: 4em 0;\n}\n#camp-info .discount .title {\n  float: left;\n  font-weight: 700;\n  font-size: 1.2em;\n  text-align: left;\n}\n#camp-info .discount img {\n  height: 6em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .discount img {\n    margin-top: 2em;\n  }\n}\n", ""]);
+	exports.push([module.id, "#camp-info .info-left {\n  padding-right: 3em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .info-left {\n    padding-right: 15px;\n  }\n}\n\n#camp-info .camp-title {\n  font-size: 3em;\n  font-weight: 700;\n}\n#camp-info .camp-subtitle {\n  font-size: 2em;\n  margin-bottom: 2em;\n}\n#camp-info .camp-info {\n}\n#camp-info .camp-info span {\n  display: inline-block;\n}\n#camp-info .camp-info dt {\n  font-weight: 400;\n  margin-top: 1em;\n}\n#camp-info .camp-info dd {\n  margin-top: 1em;\n}\n#camp-info .camp-info li {\n  margin-bottom: 1em;\n}\n@media screen and (max-width: 767px) {\n  #camp-info .camp-info dt {\n    font-size: 1.2em;\n  }\n  #camp-info .camp-info dd {\n    margin-top: 0.3em;\n  }\n}\n\n#camp-info .camp-info .camp-no {\n  width: 3em;\n  font-weight: 700;\n}\n@media screen and (max-width: 375px) {\n  #camp-info .camp-info .camp-no {\n    display: block;\n  }\n}\n\n#camp-info .camp-info .camp-date {\n  width: 4em;\n}\n#camp-info .camp-info .camp-day {\n  font-weight: 700;\n  width: 2em;\n}\n#camp-info .camp-info .camp-wave {\n  width: 1em;\n}\n#camp-info .camp-info .camp-loc {\n  position: relative;\n}\n#camp-info .camp-info .camp-loc::before {\n  content: '';\n  position: absolute;\n  top: 90%;\n  width: 100%;\n  height: 0.25em;\n  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background-size: 0.5em 0.5em;\n  background-repeat: repeat-x, repeat-x;\n}\n#camp-info .camp-info .loc-name {\n  width: 230px;\n}\n#camp-info .camp-info .loc-addr {\n  width: 250px;\n  font-size: 11pt;\n}\n\n#camp-info .discount {\n  padding: 1em 0;\n  margin: 4em 0;\n}\n#camp-info .discount-container {\n  padding-left: 3em;\n}\n  @media screen and (max-width: 1600px) {\n\n    .discount {\n      font-size: 12pt;\n    }\n\n  }\n  @media screen and (max-width: 1200px) {\n\n    .discount {\n      font-size: 11pt;\n    }\n\n  }\n\n#camp-info .discount .title {\n  position: absolute;\n  top: 1em;\n  left: 1em;\n  font-weight: 700;\n  font-size: 1.2em;\n  text-align: left;\n}\n#camp-info .discount img {\n  height: 6em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .discount img {\n    margin-top: 2em;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -39033,22 +39033,22 @@
 	      no: "1차",
 	      startDate: "8월1일",
 	      startDay: "월",
-	      endDate: "8월3일",
-	      endDay: "수",
+	      endDate: "8월4일",
+	      endDay: "목",
 	      location: "강남"
 	    }, {
 	      no: "2차",
 	      startDate: "8월8일",
 	      startDay: "월",
-	      endDate: "8월10일",
-	      endDay: "수",
+	      endDate: "8월11일",
+	      endDay: "목",
 	      location: "강남/목동"
 	    }, {
 	      no: "3차",
 	      startDate: "8월15일",
 	      startDay: "월",
-	      endDate: "8월17일",
-	      endDay: "수",
+	      endDate: "8월18일",
+	      endDay: "목",
 	      location: "목동/송도"
 	    }],
 	    time: "오전 10:00 ~ 오후 1:00(3시간)",
@@ -39160,22 +39160,22 @@
 	      no: "1차",
 	      startDate: "8월1일",
 	      startDay: "월",
-	      endDate: "8월3일",
-	      endDay: "수",
+	      endDate: "8월4일",
+	      endDay: "목",
 	      location: "강남"
 	    }, {
 	      no: "2차",
 	      startDate: "8월8일",
 	      startDay: "월",
-	      endDate: "8월10일",
-	      endDay: "수",
+	      endDate: "8월11일",
+	      endDay: "목",
 	      location: "강남/목동"
 	    }, {
 	      no: "3차",
 	      startDate: "8월15일",
 	      startDay: "월",
-	      endDate: "8월17일",
-	      endDay: "수",
+	      endDate: "8월18일",
+	      endDay: "목",
 	      location: "목동/송도"
 	    }],
 	    time: "오전 10:00 ~ 오후 1:00(3시간)",
@@ -39287,22 +39287,22 @@
 	      no: "1차",
 	      startDate: "8월1일",
 	      startDay: "월",
-	      endDate: "8월3일",
-	      endDay: "수",
+	      endDate: "8월4일",
+	      endDay: "목",
 	      location: "강남"
 	    }, {
 	      no: "2차",
 	      startDate: "8월8일",
 	      startDay: "월",
-	      endDate: "8월10일",
-	      endDay: "수",
+	      endDate: "8월11일",
+	      endDay: "목",
 	      location: "강남/목동"
 	    }, {
 	      no: "3차",
 	      startDate: "8월15일",
 	      startDay: "월",
-	      endDate: "8월17일",
-	      endDay: "수",
+	      endDate: "8월18일",
+	      endDay: "목",
 	      location: "목동/송도"
 	    }],
 	    time: "오전 10:00 ~ 오후 1:00(3시간)",

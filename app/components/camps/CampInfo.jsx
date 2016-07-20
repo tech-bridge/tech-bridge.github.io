@@ -85,8 +85,8 @@ export default class CampInfo extends React.Component {
           </dl>
         </div>
         <div className="row discount">
-          <div className="col-xs-12 highlight text-center">
-            <div className="col-md-1 title">
+          <div className="col-xs-12 highlight text-center discount-container">
+            <div className="title">
               <span>할인<br />혜택</span>
             </div>
             <div className="col-md-3">
@@ -105,13 +105,13 @@ export default class CampInfo extends React.Component {
                 '소개해준 분, 소개받은 분 모두!'<br />1+1 할인가 <b>320,000원</b>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-5">
               <img src="img/20off.png" className="img-responsive center-block" />
               <div>
-              <span className="white circle">3</span>
-              &nbsp;&nbsp;
-              Tech Camp 수료자 정규과정 할인<br />
-              테크브릿지 정규과정 등록 시 첫달 <b>20% 할인!</b>
+	              <span className="white circle">3</span>
+	              &nbsp;&nbsp;
+	              Tech Camp 수료자 정규과정 할인<br />
+	              테크브릿지 정규과정 등록 시 첫달 <b>20% 할인!</b>
               </div>
             </div>
           </div>

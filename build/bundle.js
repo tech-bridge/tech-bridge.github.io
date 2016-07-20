@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "e73e8dbe41030ede7078"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "f9fe082a137ed49c1d85"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -38353,7 +38353,7 @@
 	                  _react2.default.createElement(
 	                    'b',
 	                    null,
-	                    '하나은행 (주)테크브릿지지 771-910020-59704'
+	                    '하나은행 (주)테크브릿지 771-910020-59704'
 	                  )
 	                )
 	              )

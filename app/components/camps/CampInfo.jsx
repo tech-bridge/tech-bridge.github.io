@@ -78,7 +78,7 @@ export default class CampInfo extends React.Component {
               <dd className="col-sm-10">
                 <span>계좌 이체</span>
                 <br />
-                <span><b>하나은행 (주)테크브릿지지 771-910020-59704</b></span>
+                <span><b>하나은행 (주)테크브릿지 771-910020-59704</b></span>
               </dd>
 
             </div>

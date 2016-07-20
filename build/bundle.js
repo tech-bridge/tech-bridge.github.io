@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "8a8d1aa3aa0f53f39a42"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "a772287a96e79a8f1e47"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -39312,7 +39312,7 @@
 	  },
 	  eduinfo: {
 	    desc: "수수께끼 만들고 서로 풀어보기, 숫자 맞추기 게임 등 아이들이 흥미를 가지고 열성적으로 참여할 수 있는 콘텐츠를 통해 파이썬 언어를 배우고 프로그래밍 기법을 배워 웹, 게임을 비롯한 어떤한 프로그램도 만들 수 있는 기본 소양을 갖출 수 있습니다.",
-	    image: "img/sample1.png",
+	    image: "img/sample2.png",
 	    youtube: "",
 	    vimeo: ""
 	  },

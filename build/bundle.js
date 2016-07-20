@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "f78e215f577d96b09219"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "cb0b5c00b71f6838f782"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -37668,7 +37668,7 @@
 	        React.createElement(
 	          Link,
 	          { to: 'scratch', activeClassName: 'active' },
-	          'Scratch starter'
+	          'Scratch Starter'
 	        )
 	      ),
 	      React.createElement(
@@ -37677,7 +37677,7 @@
 	        React.createElement(
 	          Link,
 	          { to: 'web', activeClassName: 'active' },
-	          'Web master'
+	          'Web Master'
 	        )
 	      ),
 	      React.createElement(
@@ -37686,7 +37686,7 @@
 	        React.createElement(
 	          Link,
 	          { to: 'python', activeClassName: 'active' },
-	          '파이썬 explore'
+	          '파이썬 Explore'
 	        )
 	      ),
 	      React.createElement(
@@ -37930,7 +37930,7 @@
 	      startDay: "월",
 	      endDate: "8월10일",
 	      endDay: "수",
-	      location: "강남/목동"
+	      location: "강남/목동/송도"
 	    }, {
 	      no: "3차",
 	      startDate: "8월15일",
@@ -39028,7 +39028,7 @@
 	    title: "Scratch Starter",
 	    subtitle: "Camp 2",
 	    desc: "스크래치는 MIT 미디어 연구소에서 만든 어린이 교육용 프로그래밍 언어입니다. 일반적인 프로그래밍 언어에서 프로그램을 만들려면 아이들이 직접 일일이 코드를 타이핑해야 하지만, 스크래치에서는 명령이 블록으로 만들어져 있어서 마우스를 이용하여 쉽게 프로그램을 만들 수 있습니다. 특히 게임이나 애니메이션과 같은 것을 쉽게 만들 수 있도록 고안되어 있기 때문에 어렵지 않게 프로그래밍 기법들을 익힐 수 있습니다.",
-	    target: "코딩을 처음 접하는 초등학교 4~6학년 친구들",
+	    target: "코딩을 처음 접하는 초등학교 1~6학년 친구들",
 	    dates: [{
 	      no: "1차",
 	      startDate: "8월1일",
@@ -39042,7 +39042,7 @@
 	      startDay: "월",
 	      endDate: "8월11일",
 	      endDay: "목",
-	      location: "강남/목동"
+	      location: "강남/목동/송도"
 	    }, {
 	      no: "3차",
 	      startDate: "8월15일",
@@ -39169,7 +39169,7 @@
 	      startDay: "월",
 	      endDate: "8월11일",
 	      endDay: "목",
-	      location: "강남/목동"
+	      location: "강남/목동/송도"
 	    }, {
 	      no: "3차",
 	      startDate: "8월15일",
@@ -39296,7 +39296,7 @@
 	      startDay: "월",
 	      endDate: "8월11일",
 	      endDay: "목",
-	      location: "강남/목동"
+	      location: "강남/목동/송도"
 	    }, {
 	      no: "3차",
 	      startDate: "8월15일",
@@ -39734,7 +39734,7 @@
 
 
 	// module
-	exports.push([module.id, "#camp-info .info-left {\n  padding-right: 3em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .info-left {\n    padding-right: 15px;\n  }\n}\n\n#camp-info .camp-title {\n  font-size: 3em;\n  font-weight: 700;\n}\n#camp-info .camp-subtitle {\n  font-size: 2em;\n  margin-bottom: 2em;\n}\n#camp-info .camp-info {\n}\n#camp-info .camp-info span {\n  display: inline-block;\n}\n#camp-info .camp-info dt {\n  font-weight: 400;\n  margin-top: 1em;\n}\n#camp-info .camp-info dd {\n  margin-top: 1em;\n}\n#camp-info .camp-info li {\n  margin-bottom: 1em;\n}\n@media screen and (max-width: 767px) {\n  #camp-info .camp-info dt {\n    font-size: 1.2em;\n  }\n  #camp-info .camp-info dd {\n    margin-top: 0.3em;\n  }\n}\n\n#camp-info .camp-info .camp-no {\n  width: 3em;\n  font-weight: 700;\n}\n@media screen and (max-width: 375px) {\n  #camp-info .camp-info .camp-no {\n    display: block;\n  }\n}\n\n#camp-info .camp-info .camp-date {\n  width: 4em;\n}\n#camp-info .camp-info .camp-day {\n  font-weight: 700;\n  width: 2em;\n}\n#camp-info .camp-info .camp-wave {\n  width: 1em;\n}\n#camp-info .camp-info .camp-loc {\n  position: relative;\n}\n#camp-info .camp-info .camp-loc::before {\n  content: '';\n  position: absolute;\n  top: 90%;\n  width: 100%;\n  height: 0.25em;\n  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background-size: 0.5em 0.5em;\n  background-repeat: repeat-x, repeat-x;\n}\n#camp-info .discount {\n  padding: 1em 0;\n  margin: 4em 0;\n}\n#camp-info .discount .title {\n  font-weight: 700;\n  font-size: 1.2em;\n  text-align: left;\n}\n#camp-info .discount img {\n  height: 6em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .discount img {\n    margin-top: 2em;\n  }\n}\n\n#camp-info .q {\n  margin-top: 2em;\n  margin-bottom: 1em;\n  font-weight: 700;\n}\n#camp-info .i {\n  width: 100%;\n}\n", ""]);
+	exports.push([module.id, "#camp-info .q {\n  margin-top: 2em;\n  margin-bottom: 1em;\n  font-weight: 700;\n}\n#camp-info .i {\n  width: 100%;\n}\n", ""]);
 
 	// exports
 

@@ -22,7 +22,7 @@ var samData = {
         startDay: "월",
         endDate: "8월10일",
         endDay: "수",
-        location: "강남/목동"
+        location: "강남/목동/송도"
       },
       {
         no: "3차",

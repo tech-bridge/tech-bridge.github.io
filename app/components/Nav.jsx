@@ -9,13 +9,13 @@ var Nav = (props) => {
           <IndexLink to="/" activeClassName="active">코딩 SAM</IndexLink>
         </li>
         <li role="presentation">
-          <Link to="scratch" activeClassName="active">Scratch starter</Link>
+          <Link to="scratch" activeClassName="active">Scratch Starter</Link>
           </li>
         <li role="presentation">
-          <Link to="web" activeClassName="active">Web master</Link>
+          <Link to="web" activeClassName="active">Web Master</Link>
           </li>
         <li role="presentation">
-          <Link to="python" activeClassName="active">파이썬 explore</Link>
+          <Link to="python" activeClassName="active">파이썬 Explore</Link>
           </li>
         <li role="presentation">
           <Link to="shorttime" activeClassName="active">단기과정</Link>

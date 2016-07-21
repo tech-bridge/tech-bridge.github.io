@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "cb0b5c00b71f6838f782"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "997783992c886ced15f3"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -37942,7 +37942,7 @@
 	    time: "오전 10:00 ~ 오후 1:00(3시간)",
 	    number: 16,
 	    needed: "노트북",
-	    price: "360,000원"
+	    price: "360,000원 (키트리스비 포함)"
 	  },
 	  eduinfo: {
 	    desc: "아이들에게 어려운 코드 타이핑 과정 없이도 컴퓨터적 사고 능력과 창의력을 기를 수 있습니다. 특히 SAM을 통해 앞으로 보편화될 IoT 기술을 활용하여 나만 열 수 있는 금고, 운전할 수 있는 자동차 등을 만들고 놀면서 자연스럽게 기술을 배울 수 있습니다.",

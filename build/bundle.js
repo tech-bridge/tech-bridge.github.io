@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "997783992c886ced15f3"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "e7195250008c6b9edd13"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -37807,7 +37807,7 @@
 	            React.createElement(
 	              "p",
 	              null,
-	              "초등학생에게 최적화된 코딩교육을 제공하고자자 하는 목표로 설립된 교육 기관으로, PBL(Project Based Learning)을 기반으로 자신의 생각을 실현하는 놀이터입니다."
+	              "초등학생에게 최적화된 코딩교육을 제공하고자 하는 목표로 설립된 교육 기관으로, PBL(Project Based Learning)을 기반으로 자신의 생각을 실현하는 놀이터입니다."
 	            )
 	          ),
 	          React.createElement(

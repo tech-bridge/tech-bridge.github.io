@@ -13,7 +13,7 @@ var Header = (props) => {
                 </div>
               </div>
               <p>
-                초등학생에게 최적화된 코딩교육을 제공하고자자 하는 목표로 설립된 교육 기관으로, PBL(Project Based Learning)을 기반으로 자신의 생각을 실현하는 놀이터입니다.
+                초등학생에게 최적화된 코딩교육을 제공하고자 하는 목표로 설립된 교육 기관으로, PBL(Project Based Learning)을 기반으로 자신의 생각을 실현하는 놀이터입니다.
               </p>
             </div>
             <div className="col-md-offset-1 col-md-5">

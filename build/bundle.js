@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "9d72f275c716f0a723f8"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "412f4ecbfa18e5681e93"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -37937,7 +37937,7 @@
 	      startDay: "월",
 	      endDate: "8월17일",
 	      endDay: "수",
-	      location: "목동/송도"
+	      location: "강남/목동/송도"
 	    }],
 	    time: "오전 10:00 ~ 오후 1:00(3시간)",
 	    number: 16,
@@ -39028,7 +39028,7 @@
 	    title: "Scratch Starter",
 	    subtitle: "Camp 2",
 	    desc: "스크래치는 MIT 미디어 연구소에서 만든 어린이 교육용 프로그래밍 언어입니다. 일반적인 프로그래밍 언어에서 프로그램을 만들려면 아이들이 직접 일일이 코드를 타이핑해야 하지만, 스크래치에서는 명령이 블록으로 만들어져 있어서 마우스를 이용하여 쉽게 프로그램을 만들 수 있습니다. 특히 게임이나 애니메이션과 같은 것을 쉽게 만들 수 있도록 고안되어 있기 때문에 어렵지 않게 프로그래밍 기법들을 익힐 수 있습니다.",
-	    target: "코딩을 처음 접하는 초등학교 1~6학년 친구들",
+	    target: "코딩을 처음 접하는 초등학교 1  ~6학년 친구들",
 	    dates: [{
 	      no: "1차",
 	      startDate: "8월1일",
@@ -39049,7 +39049,7 @@
 	      startDay: "월",
 	      endDate: "8월18일",
 	      endDay: "목",
-	      location: "목동/송도"
+	      location: "강남/목동/송도"
 	    }],
 	    time: "오전 10:00 ~ 오후 1:00(3시간)",
 	    number: 16,
@@ -39176,7 +39176,7 @@
 	      startDay: "월",
 	      endDate: "8월18일",
 	      endDay: "목",
-	      location: "목동/송도"
+	      location: "강남/목동/송도"
 	    }],
 	    time: "오전 10:00 ~ 오후 1:00(3시간)",
 	    number: 16,
@@ -39303,7 +39303,7 @@
 	      startDay: "월",
 	      endDate: "8월18일",
 	      endDay: "목",
-	      location: "목동/송도"
+	      location: "강남/목동/송도"
 	    }],
 	    time: "오전 10:00 ~ 오후 1:00(3시간)",
 	    number: 16,

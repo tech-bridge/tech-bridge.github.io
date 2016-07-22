@@ -31,7 +31,7 @@ var data = {
         startDay: "월",
         endDate: "8월18일",
         endDay: "목",
-        location: "목동/송도"
+        location: "강남/목동/송도"
       }
     ],
     time: "오전 10:00 ~ 오후 1:00(3시간)",

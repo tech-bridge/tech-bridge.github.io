@@ -94,7 +94,7 @@ export default class CampInfo extends React.Component {
               <div>
                 <span className="white circle">1</span>
                 &nbsp;&nbsp;
-                Early Bird(~7/28)<br /><b>320,000원</b>
+                Early Bird(~7/29)<br /><b>320,000원</b>
               </div>
             </div>
             <div className="col-md-4">

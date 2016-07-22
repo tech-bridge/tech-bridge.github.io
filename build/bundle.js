@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "e7195250008c6b9edd13"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "d401b149381372db9dd5"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -38389,7 +38389,7 @@
 	                  { className: 'white circle' },
 	                  '1'
 	                ),
-	                '   Early Bird(~7/24)',
+	                '   Early Bird(~7/28)',
 	                _react2.default.createElement('br', null),
 	                _react2.default.createElement(
 	                  'b',
@@ -38416,7 +38416,7 @@
 	                _react2.default.createElement(
 	                  'b',
 	                  null,
-	                  '320,000원'
+	                  '300,000원'
 	                )
 	              )
 	            ),

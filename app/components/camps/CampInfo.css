@@ -85,13 +85,13 @@
   padding: 1em 0;
   margin: 4em 0;
 }
-#camp-info .discount-container {
-  padding: 1em 0 1em 3em;
-}
   @media screen and (max-width: 1600px) {
 
     .discount {
       font-size: 12pt;
+    }
+    .discount-container {
+      padding: 1em 0 1em 3em;
     }
 
   }
@@ -101,6 +101,14 @@
       font-size: 11pt;
     }
 
+  }
+  @media screen and (max-width: 991px) {
+    .discount {
+      font-size: 10pt;
+    }
+    .discount-container {
+      padding: 1em 0;
+    }
   }
 
 #camp-info .discount .title {
@@ -118,4 +126,8 @@
   #camp-info .discount img {
     margin-top: 2em;
   }
+}
+
+#camp-info .discount .circle {
+  float: left;
 }

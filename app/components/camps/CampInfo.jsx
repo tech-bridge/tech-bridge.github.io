@@ -89,7 +89,7 @@ export default class CampInfo extends React.Component {
             <div className="title">
               <span>할인<br />혜택</span>
             </div>
-            <div className="col-md-3">
+            <div className="col-sm-6 col-md-3">
               <img src="img/bird.png" className="img-responsive center-block" />
               <div>
                 <span className="white circle">1</span>
@@ -97,7 +97,7 @@ export default class CampInfo extends React.Component {
                 Early Bird(~7/29)<br /><b>320,000원</b>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4">
               <img src="img/oneplus.png" className="img-responsive center-block" />
               <div>
                 <span className="white circle">2</span>
@@ -105,7 +105,7 @@ export default class CampInfo extends React.Component {
                 '소개해준 분, 소개받은 분 모두!'<br />1+1 할인가 <b>300,000원</b>
               </div>
             </div>
-            <div className="col-md-5">
+            <div className="col-sm-6 col-md-5">
               <img src="img/20off.png" className="img-responsive center-block" />
               <div>
 	              <span className="white circle">3</span>

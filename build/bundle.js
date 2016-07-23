@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "412f4ecbfa18e5681e93"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "8113e5f48b767106f71c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -38950,7 +38950,7 @@
 
 
 	// module
-	exports.push([module.id, "#apply {\n  text-align: center;\n  padding: 3em 0;\n}\n", ""]);
+	exports.push([module.id, "#apply {\n  text-align: center;\n  padding: 3em 0 0 0;\n}\n", ""]);
 
 	// exports
 
@@ -39774,7 +39774,7 @@
 
 
 	// module
-	exports.push([module.id, "#poster {\n  padding: 4em 0;\n  background-color: #fff;\n  border-bottom-left-radius: 1em;\n  border-bottom-right-radius: 1em;\n}\n\n#poster hr {\n  border-top: 1px solid #BEBFC0;\n}\n\nsection {\n  padding: 0 3em;\n}\n@media screen and (max-width: 767px) {\n  section {\n    padding: 1em;\n  }\n}\n\nsection img.poster {\n  width: 100%;\n}\n", ""]);
+	exports.push([module.id, "", ""]);
 
 	// exports
 
@@ -39923,7 +39923,7 @@
 
 
 	// module
-	exports.push([module.id, "#poster {\n  padding: 4em 0;\n  background-color: #fff;\n  border-bottom-left-radius: 1em;\n  border-bottom-right-radius: 1em;\n}\n\n#poster hr {\n  border-top: 1px solid #BEBFC0;\n}\n\nsection {\n  padding: 0 3em;\n}\n@media screen and (max-width: 767px) {\n  section {\n    padding: 1em;\n  }\n}\n\nsection img.poster {\n  width: 100%;\n}\n", ""]);
+	exports.push([module.id, "", ""]);
 
 	// exports
 

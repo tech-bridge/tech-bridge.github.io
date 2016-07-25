@@ -11,7 +11,7 @@ export default class CampInfo extends React.Component {
 				return (
 	        <li className="close-date">
 	          <span className="camp-no">{date.no}</span>
-	          <span>
+	          <span className="date-info">
 	            <span className="camp-date">{date.startDate}</span>
 	            <span className="camp-day">{date.startDay}</span>
 	            <span className="camp-wave">~</span>

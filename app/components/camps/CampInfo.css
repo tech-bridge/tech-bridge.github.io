@@ -49,7 +49,7 @@
   }
 }
 
-#camp-info .camp-info .camp-dates li.close-date{
+#camp-info .camp-info .camp-dates li.close-date>span.date-info{
   /*  shadows render better in certain browsers than text, first rule is for older browser support  */
   color: #333;
   color: transparent;

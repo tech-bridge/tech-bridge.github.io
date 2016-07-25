@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "c80e85ce101f5f9d3170"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "aa2546afffd536857325"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -37923,21 +37923,24 @@
 	      startDay: "월",
 	      endDate: "8월3일",
 	      endDay: "수",
-	      location: "강남"
+	      location: "강남",
+	      isClose: true
 	    }, {
 	      no: "2차",
 	      startDate: "8월8일",
 	      startDay: "월",
 	      endDate: "8월10일",
 	      endDay: "수",
-	      location: "강남/목동/송도"
+	      location: "강남/목동/송도",
+	      isClose: false
 	    }, {
 	      no: "3차",
 	      startDate: "8월15일",
 	      startDay: "월",
 	      endDate: "8월17일",
 	      endDay: "수",
-	      location: "강남/목동/송도"
+	      location: "강남/목동/송도",
+	      isClose: false
 	    }],
 	    time: "오전 10:00 ~ 오후 1:00(3시간)",
 	    number: 16,
@@ -38107,49 +38110,100 @@
 	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(CampInfo).call(this, props));
 
 	    _this.dateList = _this.props.info.dates.map(function (date) {
-	      return _react2.default.createElement(
-	        'li',
-	        null,
-	        _react2.default.createElement(
-	          'span',
-	          { className: 'camp-no' },
-	          date.no
-	        ),
-	        _react2.default.createElement(
-	          'span',
+	      if (date.isClose) {
+	        return _react2.default.createElement(
+	          'li',
+	          { className: 'close-date' },
+	          _react2.default.createElement(
+	            'span',
+	            { className: 'camp-no' },
+	            date.no
+	          ),
+	          _react2.default.createElement(
+	            'span',
+	            null,
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'camp-date' },
+	              date.startDate
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'camp-day' },
+	              date.startDay
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'camp-wave' },
+	              '~'
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'camp-date' },
+	              date.endDate
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'camp-day' },
+	              date.endDay
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'camp-loc' },
+	              date.location
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              '  (마감)'
+	            )
+	          )
+	        );
+	      } else {
+	        return _react2.default.createElement(
+	          'li',
 	          null,
 	          _react2.default.createElement(
 	            'span',
-	            { className: 'camp-date' },
-	            date.startDate
+	            { className: 'camp-no' },
+	            date.no
 	          ),
 	          _react2.default.createElement(
 	            'span',
-	            { className: 'camp-day' },
-	            date.startDay
-	          ),
-	          _react2.default.createElement(
-	            'span',
-	            { className: 'camp-wave' },
-	            '~'
-	          ),
-	          _react2.default.createElement(
-	            'span',
-	            { className: 'camp-date' },
-	            date.endDate
-	          ),
-	          _react2.default.createElement(
-	            'span',
-	            { className: 'camp-day' },
-	            date.endDay
-	          ),
-	          _react2.default.createElement(
-	            'span',
-	            { className: 'camp-loc' },
-	            date.location
+	            null,
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'camp-date' },
+	              date.startDate
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'camp-day' },
+	              date.startDay
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'camp-wave' },
+	              '~'
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'camp-date' },
+	              date.endDate
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'camp-day' },
+	              date.endDay
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'camp-loc' },
+	              date.location
+	            )
 	          )
-	        )
-	      );
+	        );
+	      }
 	    });
 	    return _this;
 	  }
@@ -38208,7 +38262,7 @@
 	                { className: 'col-sm-10' },
 	                _react2.default.createElement(
 	                  'ul',
-	                  { className: 'list-unstyled' },
+	                  { className: 'list-unstyled camp-dates' },
 	                  this.dateList
 	                )
 	              ),
@@ -38488,7 +38542,7 @@
 
 
 	// module
-	exports.push([module.id, "#camp-info .info-left {\n  padding-right: 3em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .info-left {\n    padding-right: 15px;\n  }\n}\n\n#camp-info .camp-title {\n  font-size: 3em;\n  font-weight: 700;\n}\n#camp-info .camp-subtitle {\n  font-size: 2em;\n  margin-bottom: 2em;\n}\n#camp-info .camp-info {\n}\n#camp-info .camp-info span {\n  display: inline-block;\n}\n#camp-info .camp-info dt {\n  font-weight: 400;\n  margin-top: 1em;\n}\n#camp-info .camp-info dd {\n  margin-top: 1em;\n}\n#camp-info .camp-info li {\n  margin-bottom: 1em;\n}\n@media screen and (max-width: 767px) {\n  #camp-info .camp-info dt {\n    font-size: 1.2em;\n  }\n  #camp-info .camp-info dd {\n    margin-top: 0.3em;\n  }\n}\n\n#camp-info .camp-info .camp-no {\n  width: 3em;\n  font-weight: 700;\n}\n@media screen and (max-width: 375px) {\n  #camp-info .camp-info .camp-no {\n    display: block;\n  }\n}\n\n#camp-info .camp-info .camp-date {\n  width: 4em;\n}\n#camp-info .camp-info .camp-day {\n  font-weight: 700;\n  width: 2em;\n}\n#camp-info .camp-info .camp-wave {\n  width: 1em;\n}\n#camp-info .camp-info .camp-loc {\n  position: relative;\n}\n#camp-info .camp-info .camp-loc::before {\n  content: '';\n  position: absolute;\n  top: 90%;\n  width: 100%;\n  height: 0.25em;\n  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background-size: 0.5em 0.5em;\n  background-repeat: repeat-x, repeat-x;\n}\n#camp-info .camp-info .loc-name {\n  width: 12em;\n}\n#camp-info .camp-info .loc-addr {\n  width: 18em;\n  font-size: 0.7em;\n}\n\n#camp-info .discount {\n  padding: 1em 0;\n  margin: 4em 0;\n}\n  @media screen and (max-width: 1600px) {\n\n    .discount {\n      font-size: 12pt;\n    }\n    .discount-container {\n      padding: 1em 0 1em 3em;\n    }\n\n  }\n  @media screen and (max-width: 1200px) {\n\n    .discount {\n      font-size: 11pt;\n    }\n\n  }\n  @media screen and (max-width: 991px) {\n    .discount {\n      font-size: 10pt;\n    }\n    .discount-container {\n      padding: 1em 0;\n    }\n  }\n\n#camp-info .discount .title {\n  position: absolute;\n  top: 1em;\n  left: 1em;\n  font-weight: 700;\n  font-size: 1.2em;\n  text-align: left;\n}\n#camp-info .discount img {\n  height: 6em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .discount img {\n    margin-top: 2em;\n  }\n}\n\n#camp-info .discount .circle {\n  float: left;\n}\n", ""]);
+	exports.push([module.id, "#camp-info .info-left {\n  padding-right: 3em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .info-left {\n    padding-right: 15px;\n  }\n}\n\n#camp-info .camp-title {\n  font-size: 3em;\n  font-weight: 700;\n}\n#camp-info .camp-subtitle {\n  font-size: 2em;\n  margin-bottom: 2em;\n}\n#camp-info .camp-info {\n}\n#camp-info .camp-info span {\n  display: inline-block;\n}\n#camp-info .camp-info dt {\n  font-weight: 400;\n  margin-top: 1em;\n}\n#camp-info .camp-info dd {\n  margin-top: 1em;\n}\n#camp-info .camp-info li {\n  margin-bottom: 1em;\n}\n@media screen and (max-width: 767px) {\n  #camp-info .camp-info dt {\n    font-size: 1.2em;\n  }\n  #camp-info .camp-info dd {\n    margin-top: 0.3em;\n  }\n}\n\n#camp-info .camp-info .camp-no {\n  width: 3em;\n  font-weight: 700;\n}\n@media screen and (max-width: 375px) {\n  #camp-info .camp-info .camp-no {\n    display: block;\n  }\n}\n\n#camp-info .camp-info .camp-dates li.close-date{\n  /*  shadows render better in certain browsers than text, first rule is for older browser support  */\n  color: #333;\n  color: transparent;\n  text-shadow: 0 0 #333, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff;\n  /*  gradient background allows us to use css only & re-position it  */\n  background: -webkit-linear-gradient(#F19B33, #F19B33) left 0.70em no-repeat;\n  background: linear-gradient(#F19B33, #F19B33) left 0.70em no-repeat;\n  /*  can precisely control size in relation to the text  */\n  background-size: 100% 0.2em;\n  /*  now the underline supports transitions  */\n  -webkit-transition: .2s ease;\n  transition: .2s ease;\n\n  display: inline-block;\n}\n#camp-info .camp-info .camp-date {\n  width: 4em;\n}\n#camp-info .camp-info .camp-day {\n  font-weight: 700;\n  width: 2em;\n}\n#camp-info .camp-info .camp-wave {\n  width: 1em;\n}\n#camp-info .camp-info .camp-loc {\n  position: relative;\n}\n#camp-info .camp-info .camp-loc::before {\n  content: '';\n  position: absolute;\n  top: 90%;\n  width: 100%;\n  height: 0.25em;\n  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);\n  background-size: 0.5em 0.5em;\n  background-repeat: repeat-x, repeat-x;\n}\n#camp-info .camp-info .loc-name {\n  width: 12em;\n}\n#camp-info .camp-info .loc-addr {\n  width: 18em;\n  font-size: 0.7em;\n}\n\n#camp-info .discount {\n  padding: 1em 0;\n  margin: 4em 0;\n}\n  @media screen and (max-width: 1600px) {\n\n    .discount {\n      font-size: 12pt;\n    }\n    .discount-container {\n      padding: 1em 0 1em 3em;\n    }\n\n  }\n  @media screen and (max-width: 1200px) {\n\n    .discount {\n      font-size: 11pt;\n    }\n\n  }\n  @media screen and (max-width: 991px) {\n    .discount {\n      font-size: 10pt;\n    }\n    .discount-container {\n      padding: 1em 0;\n    }\n  }\n\n#camp-info .discount .title {\n  position: absolute;\n  top: 1em;\n  left: 1em;\n  font-weight: 700;\n  font-size: 1.2em;\n  text-align: left;\n}\n#camp-info .discount img {\n  height: 6em;\n}\n@media screen and (max-width: 991px) {\n  #camp-info .discount img {\n    margin-top: 2em;\n  }\n}\n\n#camp-info .discount .circle {\n  float: left;\n}\n", ""]);
 
 	// exports
 
@@ -39033,23 +39087,26 @@
 	      no: "1차",
 	      startDate: "8월1일",
 	      startDay: "월",
-	      endDate: "8월4일",
-	      endDay: "목",
-	      location: "강남"
+	      endDate: "8월3일",
+	      endDay: "수",
+	      location: "강남",
+	      isClose: true
 	    }, {
 	      no: "2차",
 	      startDate: "8월8일",
 	      startDay: "월",
-	      endDate: "8월11일",
-	      endDay: "목",
-	      location: "강남/목동/송도"
+	      endDate: "8월10일",
+	      endDay: "수",
+	      location: "강남/목동/송도",
+	      isClose: false
 	    }, {
 	      no: "3차",
 	      startDate: "8월15일",
 	      startDay: "월",
-	      endDate: "8월18일",
-	      endDay: "목",
-	      location: "강남/목동/송도"
+	      endDate: "8월17일",
+	      endDay: "수",
+	      location: "강남/목동/송도",
+	      isClose: false
 	    }],
 	    time: "오전 10:00 ~ 오후 1:00(3시간)",
 	    number: 16,
@@ -39160,23 +39217,26 @@
 	      no: "1차",
 	      startDate: "8월1일",
 	      startDay: "월",
-	      endDate: "8월4일",
-	      endDay: "목",
-	      location: "강남"
+	      endDate: "8월3일",
+	      endDay: "수",
+	      location: "강남",
+	      isClose: true
 	    }, {
 	      no: "2차",
 	      startDate: "8월8일",
 	      startDay: "월",
-	      endDate: "8월11일",
-	      endDay: "목",
-	      location: "강남/목동/송도"
+	      endDate: "8월10일",
+	      endDay: "수",
+	      location: "강남/목동/송도",
+	      isClose: false
 	    }, {
 	      no: "3차",
 	      startDate: "8월15일",
 	      startDay: "월",
-	      endDate: "8월18일",
-	      endDay: "목",
-	      location: "강남/목동/송도"
+	      endDate: "8월17일",
+	      endDay: "수",
+	      location: "강남/목동/송도",
+	      isClose: false
 	    }],
 	    time: "오전 10:00 ~ 오후 1:00(3시간)",
 	    number: 16,
@@ -39287,23 +39347,26 @@
 	      no: "1차",
 	      startDate: "8월1일",
 	      startDay: "월",
-	      endDate: "8월4일",
-	      endDay: "목",
-	      location: "강남"
+	      endDate: "8월3일",
+	      endDay: "수",
+	      location: "강남",
+	      isClose: true
 	    }, {
 	      no: "2차",
 	      startDate: "8월8일",
 	      startDay: "월",
-	      endDate: "8월11일",
-	      endDay: "목",
-	      location: "강남/목동/송도"
+	      endDate: "8월10일",
+	      endDay: "수",
+	      location: "강남/목동/송도",
+	      isClose: false
 	    }, {
 	      no: "3차",
 	      startDate: "8월15일",
 	      startDay: "월",
-	      endDate: "8월18일",
-	      endDay: "목",
-	      location: "강남/목동/송도"
+	      endDate: "8월17일",
+	      endDay: "수",
+	      location: "강남/목동/송도",
+	      isClose: false
 	    }],
 	    time: "오전 10:00 ~ 오후 1:00(3시간)",
 	    number: 16,

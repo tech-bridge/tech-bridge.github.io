@@ -7,19 +7,36 @@ export default class CampInfo extends React.Component {
 		super(props);
 
     this.dateList = this.props.info.dates.map(function(date) {
-      return (
-        <li>
-          <span className="camp-no">{date.no}</span>
-          <span>
-            <span className="camp-date">{date.startDate}</span>
-            <span className="camp-day">{date.startDay}</span>
-            <span className="camp-wave">~</span>
-            <span className="camp-date">{date.endDate}</span>
-            <span className="camp-day">{date.endDay}</span>
-            <span className="camp-loc">{date.location}</span>
-          </span>
-        </li>
-      );
+			if (date.isClose) {
+				return (
+	        <li className="close-date">
+	          <span className="camp-no">{date.no}</span>
+	          <span>
+	            <span className="camp-date">{date.startDate}</span>
+	            <span className="camp-day">{date.startDay}</span>
+	            <span className="camp-wave">~</span>
+	            <span className="camp-date">{date.endDate}</span>
+	            <span className="camp-day">{date.endDay}</span>
+	            <span className="camp-loc">{date.location}</span>
+							<span>&nbsp;&nbsp;(마감)</span>
+	          </span>
+	        </li>
+	      );
+			} else {
+				return (
+	        <li>
+	          <span className="camp-no">{date.no}</span>
+	          <span>
+	            <span className="camp-date">{date.startDate}</span>
+	            <span className="camp-day">{date.startDay}</span>
+	            <span className="camp-wave">~</span>
+	            <span className="camp-date">{date.endDate}</span>
+	            <span className="camp-day">{date.endDay}</span>
+	            <span className="camp-loc">{date.location}</span>
+	          </span>
+	        </li>
+	      );
+			}
     });
 	}
 
@@ -39,7 +56,7 @@ export default class CampInfo extends React.Component {
 
               <dt className="col-sm-2">일정</dt>
               <dd className="col-sm-10">
-                <ul className="list-unstyled">
+                <ul className="list-unstyled camp-dates">
                   {this.dateList}
                 </ul>
               </dd>

@@ -49,6 +49,22 @@
   }
 }
 
+#camp-info .camp-info .camp-dates li.close-date{
+  /*  shadows render better in certain browsers than text, first rule is for older browser support  */
+  color: #333;
+  color: transparent;
+  text-shadow: 0 0 #333, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff;
+  /*  gradient background allows us to use css only & re-position it  */
+  background: -webkit-linear-gradient(#F19B33, #F19B33) left 0.70em no-repeat;
+  background: linear-gradient(#F19B33, #F19B33) left 0.70em no-repeat;
+  /*  can precisely control size in relation to the text  */
+  background-size: 100% 0.2em;
+  /*  now the underline supports transitions  */
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+
+  display: inline-block;
+}
 #camp-info .camp-info .camp-date {
   width: 4em;
 }

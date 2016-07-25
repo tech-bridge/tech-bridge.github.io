@@ -14,7 +14,8 @@ var samData = {
         startDay: "월",
         endDate: "8월3일",
         endDay: "수",
-        location: "강남"
+        location: "강남",
+        isClose: true
       },
       {
         no: "2차",
@@ -22,7 +23,8 @@ var samData = {
         startDay: "월",
         endDate: "8월10일",
         endDay: "수",
-        location: "강남/목동/송도"
+        location: "강남/목동/송도",
+        isClose: false
       },
       {
         no: "3차",
@@ -30,7 +32,8 @@ var samData = {
         startDay: "월",
         endDate: "8월17일",
         endDay: "수",
-        location: "강남/목동/송도"
+        location: "강남/목동/송도",
+        isClose: false
       }
     ],
     time: "오전 10:00 ~ 오후 1:00(3시간)",

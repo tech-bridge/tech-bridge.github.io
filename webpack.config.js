@@ -12,6 +12,10 @@ module.exports = {
     port: 8080
   },
   entry: [
+    'es5-shim',
+    'es5-shim/es5-sham',
+    'es6-shim',
+    'es6-shim/es6-sham',
     'script!jquery/dist/jquery.min.js',
     'bootstrap-loader',
     'webpack/hot/dev-server',

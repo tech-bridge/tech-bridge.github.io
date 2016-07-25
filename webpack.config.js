@@ -12,12 +12,9 @@ module.exports = {
     port: 8080
   },
   entry: [
-    'es5-shim',
-    'es5-shim/es5-sham',
-    'es6-shim',
-    'es6-shim/es6-sham',
     'script!jquery/dist/jquery.min.js',
     'bootstrap-loader',
+    'babel-polyfill',
     'webpack/hot/dev-server',
     'webpack-dev-server/client?http://localhost:8080',
     path.resolve(__dirname, 'app/main.jsx')
@@ -30,14 +27,7 @@ module.exports = {
   module: {
     loaders:[
       { test: /\.css$/, include: path.resolve(__dirname, 'app'), loader: 'style-loader!css-loader' },
-      {
-        loader: 'babel-loader',
-        query: {
-          presets: ['react', 'es2015', 'stage-0']
-        },
-        test: /\.jsx?$/,
-        exclude: /(node_modules|bower_components)/
-      },
+      { test: /\.js[x]?$/, include: path.resolve(__dirname, 'app'), exclude: /node_modules/, loader: 'babel-loader' },
       { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "url-loader?limit=10000&minetype=application/font-woff" },
       { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader" }
     ]

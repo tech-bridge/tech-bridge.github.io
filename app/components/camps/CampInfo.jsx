@@ -6,7 +6,7 @@ export default class CampInfo extends React.Component {
 	constructor(props) {
 		super(props);
 
-    this.dateList = this.props.info.dates.map(function(date) {
+    this.dateList = props.info.dates.map(function(date) {
 			if (date.isClose) {
 				return (
 	        <li className="close-date">

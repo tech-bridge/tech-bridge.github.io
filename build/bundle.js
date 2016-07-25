@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "cf65f489e60e6c8d7a02"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "9f845ab2182281d04b31"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -46053,7 +46053,7 @@
 
 	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(CampInfo).call(this, props));
 
-	    _this.dateList = _this.props.info.dates.map(function (date) {
+	    _this.dateList = props.info.dates.map(function (date) {
 	      if (date.isClose) {
 	        return _react2.default.createElement(
 	          'li',

@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "9f845ab2182281d04b31"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "832768e25bff0e0d8f79"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -46525,23 +46525,23 @@
 
 	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Eduinfo).call(this, props));
 
-	    if (_this.props.eduinfo.image.length > 0) {
+	    if (props.eduinfo.image.length > 0) {
 	      _this.post = _react2.default.createElement(
 	        'div',
 	        { className: 'col-md-6 youtube-wrapper' },
-	        _react2.default.createElement('img', { src: _this.props.eduinfo.image, className: 'img-responsive center-block' })
+	        _react2.default.createElement('img', { src: props.eduinfo.image, className: 'img-responsive center-block' })
 	      );
-	    } else if (_this.props.eduinfo.youtube.length > 0) {
+	    } else if (props.eduinfo.youtube.length > 0) {
 	      _this.post = _react2.default.createElement(
 	        'div',
 	        { className: 'col-md-6 youtube-wrapper' },
-	        _react2.default.createElement('iframe', { src: _this.props.eduinfo.youtube, frameborder: '0', allowfullscreen: true, className: 'center-block' })
+	        _react2.default.createElement('iframe', { src: props.eduinfo.youtube, frameborder: '0', allowfullscreen: true, className: 'center-block' })
 	      );
 	    } else {
 	      _this.post = _react2.default.createElement(
 	        'div',
 	        { className: 'col-md-6 youtube-wrapper' },
-	        _react2.default.createElement('iframe', { src: _this.props.eduinfo.vimeo, frameborder: '0', webkitallowfullscreen: true, mozallowfullscreen: true, allowfullscreen: true })
+	        _react2.default.createElement('iframe', { src: props.eduinfo.vimeo, frameborder: '0', webkitallowfullscreen: true, mozallowfullscreen: true, allowfullscreen: true })
 	      );
 	    }
 	    return _this;
@@ -46655,7 +46655,7 @@
 
 	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Curri).call(this, props));
 
-	    _this.days = _this.props.curri.map(function (curri) {
+	    _this.days = props.curri.map(function (curri) {
 	      var contents = curri.contents.map(function (content) {
 	        return _react2.default.createElement(
 	          'div',
@@ -47493,7 +47493,7 @@
 
 	    return _possibleConstructorReturn(this, Object.getPrototypeOf(PosterShort).call(this, props));
 
-	    // this.posters = this.props.posterData.map(function(poster) {
+	    // this.posters = props.posterData.map(function(poster) {
 	    //   return (
 	    //     <div>
 	    //       <CampInfoShort info={poster} />

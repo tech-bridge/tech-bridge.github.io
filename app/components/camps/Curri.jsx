@@ -6,7 +6,7 @@ export default class Curri extends React.Component {
 	constructor(props) {
 		super(props);
 
-    this.days = this.props.curri.map(function(curri) {
+    this.days = props.curri.map(function(curri) {
       var contents = curri.contents.map(function(content) {
         return (
           <div>

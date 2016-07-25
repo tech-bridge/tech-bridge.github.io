@@ -6,22 +6,22 @@ export default class Eduinfo extends React.Component {
 	constructor(props) {
 		super(props);
 
-    if (this.props.eduinfo.image.length > 0) {
+    if (props.eduinfo.image.length > 0) {
       this.post = (
         <div className="col-md-6 youtube-wrapper">
-          <img src={this.props.eduinfo.image} className="img-responsive center-block"/>
+          <img src={props.eduinfo.image} className="img-responsive center-block"/>
         </div>
       );
-    } else if (this.props.eduinfo.youtube.length > 0) {
+    } else if (props.eduinfo.youtube.length > 0) {
       this.post = (
         <div className="col-md-6 youtube-wrapper">
-          <iframe src={this.props.eduinfo.youtube} frameborder="0" allowfullscreen className="center-block"></iframe>
+          <iframe src={props.eduinfo.youtube} frameborder="0" allowfullscreen className="center-block"></iframe>
         </div>
       );
     } else {
       this.post = (
         <div className="col-md-6 youtube-wrapper">
-          <iframe src={this.props.eduinfo.vimeo} frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe src={props.eduinfo.vimeo} frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
       );
     }

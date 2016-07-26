@@ -39,33 +39,33 @@ footer {
   }
 }
 
-  @media screen and (max-width: 1600px) {
+@media screen and (max-width: 1600px) {
 
-    body, input, select, textarea, footer {
-      font-size: 14pt;
-    }
-
+  body, input, select, textarea, footer {
+    font-size: 14pt;
   }
 
-  @media screen and (max-width: 1200px) {
+}
 
-    body, input, select, textarea, footer {
-      font-size: 11pt;
-    }
+@media screen and (max-width: 1200px) {
 
+  body, input, select, textarea, footer {
+    font-size: 11pt;
   }
 
-  @media screen and (max-width: 360px) {
+}
 
-    body, input, select, textarea, footer {
-      font-size: 11pt;
-    }
+@media screen and (max-width: 360px) {
 
-    section {
-      padding: 1em;
-    }
-
+  body, input, select, textarea, footer {
+    font-size: 11pt;
   }
+
+  section {
+    padding: 1em;
+  }
+
+}
 
 .center-block {
   display: block;

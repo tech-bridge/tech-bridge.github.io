@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b2af3eff3b67a85dfff2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "1d50b2e45897dc39b64b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -46342,13 +46342,13 @@
 	                      _react2.default.createElement(
 	                        'b',
 	                        null,
-	                        'CMAX'
+	                        '에이블스퀘어'
 	                      )
 	                    ),
 	                    _react2.default.createElement(
 	                      'span',
 	                      { className: 'loc-addr' },
-	                      '서울특별시 강남구 테헤란로로1길 28-11'
+	                      '서울특별시 강남구 강남대로94길 14'
 	                    )
 	                  ),
 	                  _react2.default.createElement(

@@ -68,8 +68,8 @@ export default class CampInfo extends React.Component {
               <dd className="col-sm-10">
                 <ul className="list-unstyled">
                   <li>
-                    <span className="loc-name">[강남] <b>CMAX</b></span>
-                    <span className="loc-addr">서울특별시 강남구 테헤란로로1길 28-11</span>
+                    <span className="loc-name">[강남] <b>에이블스퀘어</b></span>
+                    <span className="loc-addr">서울특별시 강남구 강남대로94길 14</span>
                   </li>
                   <li>
                     <span className="loc-name">[목동] <b>쉬라이크스커피</b></span>

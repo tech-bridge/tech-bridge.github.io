@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "87836324b31d6524305e"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "b2af3eff3b67a85dfff2"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -46154,11 +46154,11 @@
 
 	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(CampInfo).call(this, props));
 
-	    _this.dateList = props.info.dates.map(function (date) {
+	    _this.dateList = props.info.dates.map(function (date, i) {
 	      if (date.isClose) {
 	        return _react2.default.createElement(
 	          'li',
-	          { className: 'close-date' },
+	          { className: 'close-date', key: i },
 	          _react2.default.createElement(
 	            'span',
 	            { className: 'camp-no' },
@@ -46207,7 +46207,7 @@
 	      } else {
 	        return _react2.default.createElement(
 	          'li',
-	          null,
+	          { key: i },
 	          _react2.default.createElement(
 	            'span',
 	            { className: 'camp-no' },
@@ -46756,11 +46756,11 @@
 
 	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Curri).call(this, props));
 
-	    _this.days = props.curri.map(function (curri) {
-	      var contents = curri.contents.map(function (content) {
+	    _this.days = props.curri.map(function (curri, i) {
+	      var contents = curri.contents.map(function (content, j) {
 	        return _react2.default.createElement(
 	          'div',
-	          null,
+	          { key: j },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'col-md-3 curri-title' },
@@ -46776,7 +46776,7 @@
 
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'row curri-row' },
+	        { className: 'row curri-row', key: i },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'col-md-2 curri-day' },

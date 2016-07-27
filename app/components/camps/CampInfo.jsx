@@ -6,10 +6,10 @@ export default class CampInfo extends React.Component {
 	constructor(props) {
 		super(props);
 
-    this.dateList = props.info.dates.map(function(date) {
+    this.dateList = props.info.dates.map(function(date, i) {
 			if (date.isClose) {
 				return (
-	        <li className="close-date">
+	        <li className="close-date" key={i}>
 	          <span className="camp-no">{date.no}</span>
 	          <span className="date-info">
 	            <span className="camp-date">{date.startDate}</span>
@@ -24,7 +24,7 @@ export default class CampInfo extends React.Component {
 	      );
 			} else {
 				return (
-	        <li>
+	        <li key={i}>
 	          <span className="camp-no">{date.no}</span>
 	          <span>
 	            <span className="camp-date">{date.startDate}</span>

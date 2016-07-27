@@ -6,10 +6,10 @@ export default class Curri extends React.Component {
 	constructor(props) {
 		super(props);
 
-    this.days = props.curri.map(function(curri) {
-      var contents = curri.contents.map(function(content) {
+    this.days = props.curri.map(function(curri, i) {
+      var contents = curri.contents.map(function(content, j) {
         return (
-          <div>
+          <div key={j}>
             <div className="col-md-3 curri-title">
               {content.title}
             </div>
@@ -21,7 +21,7 @@ export default class Curri extends React.Component {
       });
 
       return (
-        <div className="row curri-row">
+        <div className="row curri-row" key={i}>
           <div className="col-md-2 curri-day">
             <span className="circle highlight">{curri.day}</span>
           </div>

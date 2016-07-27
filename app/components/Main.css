@@ -127,7 +127,7 @@ nav {
   vertical-align: middle;
 }
 .nav>li>a {
-  font-size: 17pt;
+  font-size: 1.3em;
   font-weight: 100;
 }
 .nav>li>a.active, .nav>li>a.active:focus, .nav>li>a.active:hover {

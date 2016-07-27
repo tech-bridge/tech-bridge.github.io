@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "1d50b2e45897dc39b64b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "37a775ccd1f59e34970c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -47007,7 +47007,7 @@
 		_createClass(Button, [{
 			key: 'handleClick',
 			value: function handleClick() {
-				window.open("{this.props.link}");
+				window.open(this.props.link);
 			}
 		}, {
 			key: 'render',

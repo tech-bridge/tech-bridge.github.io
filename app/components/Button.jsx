@@ -10,7 +10,7 @@ export default class Button extends React.Component {
 	}
 
   handleClick() {
-    window.open("{this.props.link}");
+    window.open(this.props.link);
   }
 
 	render() {

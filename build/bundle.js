@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "62091cdadb88915fcade"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "77054d3c3a76fc6caa83"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -45975,7 +45975,7 @@
 	      startDate: "8월8일",
 	      startDay: "월",
 	      endDate: "8월10일",
-	      endDay: "수",
+	      endDay: "목",
 	      location: "강남/목동/송도",
 	      isClose: false
 	    }, {
@@ -45983,7 +45983,7 @@
 	      startDate: "8월15일",
 	      startDay: "월",
 	      endDate: "8월17일",
-	      endDay: "수",
+	      endDay: "목",
 	      location: "강남/목동/송도",
 	      isClose: false
 	    }],
@@ -47232,7 +47232,7 @@
 	      startDate: "8월8일",
 	      startDay: "월",
 	      endDate: "8월10일",
-	      endDay: "수",
+	      endDay: "목",
 	      location: "강남/목동/송도",
 	      isClose: false
 	    }, {
@@ -47240,7 +47240,7 @@
 	      startDate: "8월15일",
 	      startDay: "월",
 	      endDate: "8월17일",
-	      endDay: "수",
+	      endDay: "목",
 	      location: "강남/목동/송도",
 	      isClose: false
 	    }],
@@ -47362,7 +47362,7 @@
 	      startDate: "8월8일",
 	      startDay: "월",
 	      endDate: "8월10일",
-	      endDay: "수",
+	      endDay: "목",
 	      location: "강남/목동/송도",
 	      isClose: false
 	    }, {
@@ -47370,7 +47370,7 @@
 	      startDate: "8월15일",
 	      startDay: "월",
 	      endDate: "8월17일",
-	      endDay: "수",
+	      endDay: "목",
 	      location: "강남/목동/송도",
 	      isClose: false
 	    }],
@@ -47492,7 +47492,7 @@
 	      startDate: "8월8일",
 	      startDay: "월",
 	      endDate: "8월10일",
-	      endDay: "수",
+	      endDay: "목",
 	      location: "강남/목동/송도",
 	      isClose: false
 	    }, {
@@ -47500,7 +47500,7 @@
 	      startDate: "8월15일",
 	      startDay: "월",
 	      endDate: "8월17일",
-	      endDay: "수",
+	      endDay: "목",
 	      location: "강남/목동/송도",
 	      isClose: false
 	    }],

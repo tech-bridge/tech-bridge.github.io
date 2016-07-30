@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "77054d3c3a76fc6caa83"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "b588fc00a88e0bef1bcd"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -46361,13 +46361,13 @@
 	                      _react2.default.createElement(
 	                        'b',
 	                        null,
-	                        '쉬라이크스커피'
+	                        '비아캘린더 영어학원'
 	                      )
 	                    ),
 	                    _react2.default.createElement(
 	                      'span',
 	                      { className: 'loc-addr' },
-	                      '서울특별시 양천구 목동 606-8'
+	                      '서울특별시 양천구 목동 905-22'
 	                    )
 	                  ),
 	                  _react2.default.createElement(

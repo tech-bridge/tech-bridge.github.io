@@ -72,8 +72,8 @@ export default class CampInfo extends React.Component {
                     <span className="loc-addr">서울특별시 강남구 강남대로94길 14</span>
                   </li>
                   <li>
-                    <span className="loc-name">[목동] <b>쉬라이크스커피</b></span>
-                    <span className="loc-addr">서울특별시 양천구 목동 606-8</span>
+                    <span className="loc-name">[목동] <b>비아캘린더 영어학원</b></span>
+                    <span className="loc-addr">서울특별시 양천구 목동 905-22</span>
                   </li>
                   <li>
                     <span className="loc-name">[송도] <b>연세대학교 진리관</b></span>

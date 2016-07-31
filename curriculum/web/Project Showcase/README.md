@@ -26,17 +26,15 @@
 ![screenshot](showcase-a-template.png)
 
 
-+ 코드클럽 웹사이트 주소를 더하고 <a href="https://www.codeclub.org.uk">`https://www.codeclub.org.uk`</a> 텍스트를 링크하세요:
++ 테크브릿지 웹사이트 주소를 더하고 <a href="http://www.techbridge.co.kr">`http://www.techbridge.co.kr`</a> 텍스트를 링크하세요:
 
-![screenshot](showcase-code-club.png)
+![screenshot](showcase-techbridge.png)
 
 + run을 눌러서 트링켓을 확인해보세요.
 
 ![screenshot](showcase-cc-output.png)
 
-+ 코드 클럽 링크를 눌러서 웹페이지를 확인해보세요. 이제 트링켓이 코드클럽 웹페이지를 보여줘야 합니다: 	
-
-![screenshot](showcase-cc-website.png)
++ 테크브릿지 링크를 눌러서 웹페이지를 확인해보세요. 이제 트링켓이 테크브릿지 웹페이지를 보여줘야 합니다: 	
 
 + 원래 페이지로 돌아가려면 :
 
@@ -56,9 +54,7 @@
 
 ## 도전과제: 다른 링크 더하기 {.challenge}
 
-이 웹프로젝트들을 만드는데 도움이 됬던 웹사이트의 링크를 문장 안에 더하세요. 예를 들자면: <a href="https://trinket.io">https://trinket.io</a> or <a href="http://colours.neilorangepeel.com">http://colours.neilorangepeel.com</a>.
-
-![screenshot](showcase-link-challenge.png)
+이 웹프로젝트들을 만드는데 도움이 됬던 웹사이트의 링크를 문장 안에 더하세요. 예를 들자면: <a href="https://trinket.io">https://trinket.io</a> 혹은 <a href="http://colours.neilorangepeel.com">http://colours.neilorangepeel.com</a>.
 
 # 프로젝트를 저장하세요 {.activity}
 
@@ -86,7 +82,7 @@
 
 ![screenshot](showcase-link-trinket.png)
 
-웹페이지를 다시 확인하세요. 이렇게 보여야할 입니다:
+웹페이지를 다시 확인하세요. 이렇게 보여야 합니다:
 
 ![screenshot](showcase-link-output.png)
 
@@ -96,19 +92,19 @@
 
 ## 도전과제: 프로젝트 리스트 만들기 {.challenge}
 
-코드클럽에서 만들었던 다른 HTML &amp; CSS 프로젝트 들을 더하세요. `<h2>` 헤딩을 사용해서 웹페이지를 정리하세요.
+테크브릿지에서 만들었던 다른 HTML &amp; CSS 프로젝트 들을 더하세요. `<h2>` 헤딩을 사용해서 웹페이지를 정리하세요.
 
-만들었던 다른 프로젝트가 없다면 코드클럽에서 주는 예시들을 사용할 수 있습니다:
+만들었던 다른 프로젝트가 없다면 테크브릿지에서 주는 예시들을 사용할 수 있습니다:
 
-+ Happy Birthday: <a href="https://trinket.io/html/e996dc0380">https://trinket.io/html/e996dc0380</a>
++ 생일 축하 카드: <a href="https://trinket.io/html/e996dc0380">https://trinket.io/html/e996dc0380</a>
 
-+ Tell a Story: <a href="https://trinket.io/html/c8afdef912">https://trinket.io/html/c8afdef912</a>
++ 이야기 만들기: <a href="https://trinket.io/html/c8afdef912">https://trinket.io/html/c8afdef912</a>
 
-+ Wanted: <a href="https://trinket.io/html/ebeb56398a">https://trinket.io/html/ebeb56398a</a>
++ 로봇을 찾습니다!: <a href="https://trinket.io/html/ebeb56398a">https://trinket.io/html/ebeb56398a</a>
 
-+ Recipe: <a href="https://trinket.io/html/c0fd9b40cd">https://trinket.io/html/c0fd9b40cd</a>
++ 나만의 레시피: <a href="https://trinket.io/html/c0fd9b40cd">https://trinket.io/html/c0fd9b40cd</a>
 
-+ Mystery Letter: <a href="https://trinket.io/html/1d4d4c5ce1">https://trinket.io/html/1d4d4c5ce1</a>
++ 수수께끼 만들기: <a href="https://trinket.io/html/1d4d4c5ce1">https://trinket.io/html/1d4d4c5ce1</a>
 
 완성된 페이지는 이렇게 생겼을 것입니다:
 

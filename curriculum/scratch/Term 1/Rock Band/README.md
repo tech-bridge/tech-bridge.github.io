@@ -1,12 +1,3 @@
----
-제목: 락 밴드
-난이도: Scratch 1
-언어: ko-KR
-stylesheet: scratch
-embeds: "*.png"
-materials: ["Club Leader Resources/*"]
-...
-
 # 소개 { .intro }
 
 이 프로젝트에선 나만의 악기를 코드 하는 방법을 배울 것입니다!
